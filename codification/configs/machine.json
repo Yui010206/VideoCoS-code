@@ -1,0 +1,104 @@
+{
+ "_note": "Machine settings: edit every /path/to/... below. Each model runs in its own Python environment (python) with its weights (weights); Blender and the Docker sandbox are for codification; env is exported to every model process (HF_HOME and TORCH_HOME hold the models SAM 3D loads by name: MoGe and DINOv2). The gpu fields are overridden by --gpus / --gpu.",
+ "vocabulary": {
+  "python": "/path/to/envs/vllm/bin/python",
+  "gpu": 0,
+  "model_id": "Qwen/Qwen3.8-27B",
+  "revision": "local copy",
+  "weights": "/path/to/Qwen3.8-27B",
+  "frames": 32,
+  "names_per_frame": 20,
+  "max_names": 60,
+  "max_new_tokens": 300,
+  "repetition_penalty": 1.1,
+  "seed": 0
+ },
+ "geometry": {
+  "python": "/path/to/envs/da3/bin/python",
+  "gpu": 0,
+  "device": "cuda",
+  "model_id": "depth-anything/DA3NESTED-GIANT-LARGE-1.1",
+  "revision": "b2359bdf726fb44ef62acca04d629dcf158053e7",
+  "weights": "/path/to/hf_home/hub/models--depth-anything--DA3NESTED-GIANT-LARGE-1.1/snapshots/b2359bdf726fb44ef62acca04d629dcf158053e7",
+  "process_res": 504,
+  "process_res_method": "upper_bound_resize",
+  "ref_view_strategy": "middle",
+  "use_ray_pose": false,
+  "keyframe_stride": 1,
+  "seed": 0,
+  "streaming_paths": {
+   "code_dir": "/path/to/Depth-Anything-3/da3_streaming",
+   "salad_weights": "/path/to/salad/dino_salad.ckpt",
+   "salad_sha256": "6b3f1720954293e83da6966c5cfcfc6713200d7fefadcca76fc51aeb80b3cada",
+   "salad_source": "https://github.com/serizba/salad/releases/download/v1.0.0/dino_salad.ckpt (salad code 6aede13a)",
+   "dinov2_hub_dir": "/path/to/torch_home/hub/facebookresearch_dinov2_main"
+  }
+ },
+ "tracks": {
+  "python": "/path/to/envs/sam3/bin/python",
+  "gpu": 0,
+  "model_id": "facebook/sam3",
+  "revision": "3c879f39826c281e95690f02c7821c4de09afae7",
+  "weights": "/path/to/hf_home/hub/models--facebook--sam3/snapshots/3c879f39826c281e95690f02c7821c4de09afae7/sam3.pt",
+  "seed": 0
+ },
+ "agent": {
+  "blender_dir": "/path/to/blender-4.5.14-linux-x64",
+  "sandbox_cpus": 8,
+  "sandbox_memory": "8g",
+  "sandbox_timeout": 900,
+  "max_revisions": 4,
+  "max_images_per_call": 12,
+  "image_size": 1024,
+  "image_detail": "high",
+  "render_size": 512,
+  "render_samples": 16,
+  "preview_frames": 24,
+  "preview_size": 384,
+  "initial_frames": {
+   "single": 1,
+   "static": 8,
+   "moving": 64
+  },
+  "overview_image_size": 448,
+  "annotated_frames": 16,
+  "budget": {
+   "usd_per_million_tokens": {
+    "input": 0.75,
+    "output": 3.75,
+    "cached_input": 0.075
+   },
+   "prices_note": "gemini-3.8-flash Standard tier (ai.google.dev/gemini-api/docs/pricing), checked 2026-10-23; valid through 2026-12-31, doubles on 2027-01-01. Cached input (usage.prompt_tokens_details.cached_tokens) at $0.075."
+  }
+ },
+ "proposals": {
+  "frames": 8,
+  "points_per_side": 16,
+  "pred_iou": 0.75,
+  "nms_iou": 0.7,
+  "min_area_frac": 0.001,
+  "max_area_frac": 0.4,
+  "max_per_frame": 64,
+  "unexplained_overlap": 0.6,
+  "seed": 0,
+  "_note": "class-agnostic SAM 3 proposals (the tracks model) on evenly spaced frames; the ones no track explains (no track mask covers the same region, each at least unexplained_overlap inside the other) are named by the vocabulary VLM ('none' = ground and what covers it, walls, sky, scenery, shadows) and tracked from their masks (groups of group_size objects, track_window frames around the seed, 0 = whole video); a proposal track repeating a track (the same region, or inside it under the same name, at dedupe_iou) is dropped",
+  "group_size": 16,
+  "track_window": 0,
+  "dedupe_iou": 0.5
+ },
+ "bench_root": "../../bench",
+ "objects3d": {
+  "python": "/path/to/envs/sam3d-objects/bin/python",
+  "repo": "/path/to/sam-3d-objects",
+  "config": "/path/to/sam-3d-objects/checkpoints/hf/pipeline.yaml",
+  "gpu": 0,
+  "faces": 20000,
+  "load_timeout": 900,
+  "_note": "SAM 3D Objects (facebook/sam-3d-objects) for the room meshes and make_objects; --gpu overrides gpu."
+ },
+ "env": {
+  "HF_HOME": "/path/to/hf_home",
+  "TORCH_HOME": "/path/to/torch_home",
+  "HF_HUB_OFFLINE": "1"
+ }
+}

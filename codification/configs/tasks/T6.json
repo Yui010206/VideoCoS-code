@@ -1,0 +1,18 @@
+{
+ "_note": "Bench T6 (Ego2Act goal-conditioned planning): the start image (downscaled to 1280 px); the goal text goes to the model as task.text so the objects and parts the goal acts on are built to be acted on.",
+ "include": "../machine.json",
+ "decode": {
+  "start_frame": 0,
+  "jpeg_quality": 95,
+  "cut_threshold": 0.5,
+  "max_side": 1280
+ },
+ "fuse": {},
+ "agent": {
+  "budget": {
+   "max_model_requests": 25,
+   "max_wall_seconds": 3600,
+   "max_usd": 0.6
+  }
+ }
+}

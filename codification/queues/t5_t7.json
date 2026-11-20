@@ -1,0 +1,1382 @@
+[
+ {
+  "id": "T5/scn02900",
+  "task": "T5",
+  "sample": "T5_scn02900_v0_v15"
+ },
+ {
+  "id": "T5/scn02901",
+  "task": "T5",
+  "sample": "T5_scn02901_v0_v4"
+ },
+ {
+  "id": "T5/scn02902",
+  "task": "T5",
+  "sample": "T5_scn02902_v0_v15"
+ },
+ {
+  "id": "T5/scn02903",
+  "task": "T5",
+  "sample": "T5_scn02903_v0_v4"
+ },
+ {
+  "id": "T5/scn02904",
+  "task": "T5",
+  "sample": "T5_scn02904_v0_v4"
+ },
+ {
+  "id": "T5/scn02905",
+  "task": "T5",
+  "sample": "T5_scn02905_v0_v4"
+ },
+ {
+  "id": "T5/scn02906",
+  "task": "T5",
+  "sample": "T5_scn02906_v0_v4"
+ },
+ {
+  "id": "T5/scn02907",
+  "task": "T5",
+  "sample": "T5_scn02907_v0_v4"
+ },
+ {
+  "id": "T5/scn02908",
+  "task": "T5",
+  "sample": "T5_scn02908_v0_v4"
+ },
+ {
+  "id": "T5/scn02909",
+  "task": "T5",
+  "sample": "T5_scn02909_v0_v4"
+ },
+ {
+  "id": "T5/scn02910",
+  "task": "T5",
+  "sample": "T5_scn02910_v0_v4"
+ },
+ {
+  "id": "T5/scn02911",
+  "task": "T5",
+  "sample": "T5_scn02911_v0_v4"
+ },
+ {
+  "id": "T5/scn02912",
+  "task": "T5",
+  "sample": "T5_scn02912_v0_v4"
+ },
+ {
+  "id": "T5/scn02913",
+  "task": "T5",
+  "sample": "T5_scn02913_v0_v4"
+ },
+ {
+  "id": "T5/scn02914",
+  "task": "T5",
+  "sample": "T5_scn02914_v0_v15"
+ },
+ {
+  "id": "T5/scn02915",
+  "task": "T5",
+  "sample": "T5_scn02915_v0_v15"
+ },
+ {
+  "id": "T5/scn02916",
+  "task": "T5",
+  "sample": "T5_scn02916_v0_v4"
+ },
+ {
+  "id": "T5/scn02917",
+  "task": "T5",
+  "sample": "T5_scn02917_v0_v4"
+ },
+ {
+  "id": "T5/scn02918",
+  "task": "T5",
+  "sample": "T5_scn02918_v0_v4"
+ },
+ {
+  "id": "T5/scn02919",
+  "task": "T5",
+  "sample": "T5_scn02919_v0_v15"
+ },
+ {
+  "id": "T5/scn02920",
+  "task": "T5",
+  "sample": "T5_scn02920_v0_v15"
+ },
+ {
+  "id": "T5/scn02921",
+  "task": "T5",
+  "sample": "T5_scn02921_v0_v15"
+ },
+ {
+  "id": "T5/scn02922",
+  "task": "T5",
+  "sample": "T5_scn02922_v0_v15"
+ },
+ {
+  "id": "T5/scn02923",
+  "task": "T5",
+  "sample": "T5_scn02923_v0_v4"
+ },
+ {
+  "id": "T5/scn02924",
+  "task": "T5",
+  "sample": "T5_scn02924_v0_v15"
+ },
+ {
+  "id": "T5/scn02925",
+  "task": "T5",
+  "sample": "T5_scn02925_v0_v4"
+ },
+ {
+  "id": "T5/scn02926",
+  "task": "T5",
+  "sample": "T5_scn02926_v0_v4"
+ },
+ {
+  "id": "T5/scn02927",
+  "task": "T5",
+  "sample": "T5_scn02927_v0_v15"
+ },
+ {
+  "id": "T5/scn02928",
+  "task": "T5",
+  "sample": "T5_scn02928_v0_v15"
+ },
+ {
+  "id": "T5/scn02929",
+  "task": "T5",
+  "sample": "T5_scn02929_v0_v4"
+ },
+ {
+  "id": "T5/scn02930",
+  "task": "T5",
+  "sample": "T5_scn02930_v0_v4"
+ },
+ {
+  "id": "T5/scn02931",
+  "task": "T5",
+  "sample": "T5_scn02931_v0_v15"
+ },
+ {
+  "id": "T5/scn02932",
+  "task": "T5",
+  "sample": "T5_scn02932_v0_v4"
+ },
+ {
+  "id": "T5/scn02933",
+  "task": "T5",
+  "sample": "T5_scn02933_v0_v15"
+ },
+ {
+  "id": "T5/scn02934",
+  "task": "T5",
+  "sample": "T5_scn02934_v0_v4"
+ },
+ {
+  "id": "T5/scn02935",
+  "task": "T5",
+  "sample": "T5_scn02935_v0_v4"
+ },
+ {
+  "id": "T5/scn02936",
+  "task": "T5",
+  "sample": "T5_scn02936_v0_v15"
+ },
+ {
+  "id": "T5/scn02937",
+  "task": "T5",
+  "sample": "T5_scn02937_v0_v15"
+ },
+ {
+  "id": "T5/scn02938",
+  "task": "T5",
+  "sample": "T5_scn02938_v0_v4"
+ },
+ {
+  "id": "T5/scn02939",
+  "task": "T5",
+  "sample": "T5_scn02939_v0_v4"
+ },
+ {
+  "id": "T5/scn02940",
+  "task": "T5",
+  "sample": "T5_scn02940_v0_v4"
+ },
+ {
+  "id": "T5/scn02941",
+  "task": "T5",
+  "sample": "T5_scn02941_v0_v4"
+ },
+ {
+  "id": "T5/scn02942",
+  "task": "T5",
+  "sample": "T5_scn02942_v0_v4"
+ },
+ {
+  "id": "T5/scn02943",
+  "task": "T5",
+  "sample": "T5_scn02943_v0_v4"
+ },
+ {
+  "id": "T5/scn02944",
+  "task": "T5",
+  "sample": "T5_scn02944_v0_v4"
+ },
+ {
+  "id": "T5/scn02945",
+  "task": "T5",
+  "sample": "T5_scn02945_v0_v15"
+ },
+ {
+  "id": "T5/scn02946",
+  "task": "T5",
+  "sample": "T5_scn02946_v0_v4"
+ },
+ {
+  "id": "T5/scn02947",
+  "task": "T5",
+  "sample": "T5_scn02947_v0_v4"
+ },
+ {
+  "id": "T5/scn02948",
+  "task": "T5",
+  "sample": "T5_scn02948_v0_v15"
+ },
+ {
+  "id": "T5/scn02949",
+  "task": "T5",
+  "sample": "T5_scn02949_v0_v15"
+ },
+ {
+  "id": "T5/scn02950",
+  "task": "T5",
+  "sample": "T5_scn02950_v0_v4"
+ },
+ {
+  "id": "T5/scn02951",
+  "task": "T5",
+  "sample": "T5_scn02951_v0_v4"
+ },
+ {
+  "id": "T5/scn02952",
+  "task": "T5",
+  "sample": "T5_scn02952_v0_v4"
+ },
+ {
+  "id": "T5/scn02953",
+  "task": "T5",
+  "sample": "T5_scn02953_v0_v15"
+ },
+ {
+  "id": "T5/scn02954",
+  "task": "T5",
+  "sample": "T5_scn02954_v0_v4"
+ },
+ {
+  "id": "T5/scn02955",
+  "task": "T5",
+  "sample": "T5_scn02955_v0_v15"
+ },
+ {
+  "id": "T5/scn02956",
+  "task": "T5",
+  "sample": "T5_scn02956_v0_v15"
+ },
+ {
+  "id": "T5/scn02957",
+  "task": "T5",
+  "sample": "T5_scn02957_v0_v4"
+ },
+ {
+  "id": "T5/scn02958",
+  "task": "T5",
+  "sample": "T5_scn02958_v0_v15"
+ },
+ {
+  "id": "T5/scn02959",
+  "task": "T5",
+  "sample": "T5_scn02959_v0_v4"
+ },
+ {
+  "id": "T5/scn02960",
+  "task": "T5",
+  "sample": "T5_scn02960_v0_v15"
+ },
+ {
+  "id": "T5/scn02961",
+  "task": "T5",
+  "sample": "T5_scn02961_v0_v15"
+ },
+ {
+  "id": "T5/scn02962",
+  "task": "T5",
+  "sample": "T5_scn02962_v0_v4"
+ },
+ {
+  "id": "T5/scn02963",
+  "task": "T5",
+  "sample": "T5_scn02963_v0_v15"
+ },
+ {
+  "id": "T5/scn02964",
+  "task": "T5",
+  "sample": "T5_scn02964_v0_v4"
+ },
+ {
+  "id": "T5/scn02965",
+  "task": "T5",
+  "sample": "T5_scn02965_v0_v15"
+ },
+ {
+  "id": "T5/scn02966",
+  "task": "T5",
+  "sample": "T5_scn02966_v0_v15"
+ },
+ {
+  "id": "T5/scn02967",
+  "task": "T5",
+  "sample": "T5_scn02967_v0_v4"
+ },
+ {
+  "id": "T5/scn02968",
+  "task": "T5",
+  "sample": "T5_scn02968_v0_v15"
+ },
+ {
+  "id": "T5/scn02969",
+  "task": "T5",
+  "sample": "T5_scn02969_v0_v15"
+ },
+ {
+  "id": "T5/scn02970",
+  "task": "T5",
+  "sample": "T5_scn02970_v0_v4"
+ },
+ {
+  "id": "T5/scn02971",
+  "task": "T5",
+  "sample": "T5_scn02971_v0_v15"
+ },
+ {
+  "id": "T5/scn02972",
+  "task": "T5",
+  "sample": "T5_scn02972_v0_v4"
+ },
+ {
+  "id": "T5/scn02973",
+  "task": "T5",
+  "sample": "T5_scn02973_v0_v4"
+ },
+ {
+  "id": "T5/scn02974",
+  "task": "T5",
+  "sample": "T5_scn02974_v0_v15"
+ },
+ {
+  "id": "T5/scn02975",
+  "task": "T5",
+  "sample": "T5_scn02975_v0_v15"
+ },
+ {
+  "id": "T5/scn02976",
+  "task": "T5",
+  "sample": "T5_scn02976_v0_v15"
+ },
+ {
+  "id": "T5/scn02977",
+  "task": "T5",
+  "sample": "T5_scn02977_v0_v4"
+ },
+ {
+  "id": "T5/scn02978",
+  "task": "T5",
+  "sample": "T5_scn02978_v0_v4"
+ },
+ {
+  "id": "T5/scn02979",
+  "task": "T5",
+  "sample": "T5_scn02979_v0_v15"
+ },
+ {
+  "id": "T5/scn02980",
+  "task": "T5",
+  "sample": "T5_scn02980_v0_v4"
+ },
+ {
+  "id": "T5/scn02981",
+  "task": "T5",
+  "sample": "T5_scn02981_v0_v4"
+ },
+ {
+  "id": "T5/scn02982",
+  "task": "T5",
+  "sample": "T5_scn02982_v0_v4"
+ },
+ {
+  "id": "T5/scn02983",
+  "task": "T5",
+  "sample": "T5_scn02983_v0_v15"
+ },
+ {
+  "id": "T5/scn02984",
+  "task": "T5",
+  "sample": "T5_scn02984_v0_v15"
+ },
+ {
+  "id": "T5/scn02985",
+  "task": "T5",
+  "sample": "T5_scn02985_v0_v4"
+ },
+ {
+  "id": "T5/scn02986",
+  "task": "T5",
+  "sample": "T5_scn02986_v0_v15"
+ },
+ {
+  "id": "T5/scn02987",
+  "task": "T5",
+  "sample": "T5_scn02987_v0_v15"
+ },
+ {
+  "id": "T5/scn02988",
+  "task": "T5",
+  "sample": "T5_scn02988_v0_v15"
+ },
+ {
+  "id": "T5/scn02989",
+  "task": "T5",
+  "sample": "T5_scn02989_v0_v4"
+ },
+ {
+  "id": "T5/scn02990",
+  "task": "T5",
+  "sample": "T5_scn02990_v0_v15"
+ },
+ {
+  "id": "T5/scn02991",
+  "task": "T5",
+  "sample": "T5_scn02991_v0_v4"
+ },
+ {
+  "id": "T5/scn02992",
+  "task": "T5",
+  "sample": "T5_scn02992_v0_v4"
+ },
+ {
+  "id": "T5/scn02993",
+  "task": "T5",
+  "sample": "T5_scn02993_v0_v4"
+ },
+ {
+  "id": "T5/scn02994",
+  "task": "T5",
+  "sample": "T5_scn02994_v0_v15"
+ },
+ {
+  "id": "T5/scn02995",
+  "task": "T5",
+  "sample": "T5_scn02995_v0_v4"
+ },
+ {
+  "id": "T5/scn02996",
+  "task": "T5",
+  "sample": "T5_scn02996_v0_v4"
+ },
+ {
+  "id": "T5/scn02997",
+  "task": "T5",
+  "sample": "T5_scn02997_v0_v4"
+ },
+ {
+  "id": "T5/scn02998",
+  "task": "T5",
+  "sample": "T5_scn02998_v0_v15"
+ },
+ {
+  "id": "T5/scn02999",
+  "task": "T5",
+  "sample": "T5_scn02999_v0_v4"
+ },
+ {
+  "id": "T6/T6_acoustic_electric_guitar",
+  "task": "T6",
+  "sample": "T6_acoustic_electric_guitar"
+ },
+ {
+  "id": "T6/T6_air_freshener_dispenser",
+  "task": "T6",
+  "sample": "T6_air_freshener_dispenser"
+ },
+ {
+  "id": "T6/T6_aromatic_cube_leaf",
+  "task": "T6",
+  "sample": "T6_aromatic_cube_leaf"
+ },
+ {
+  "id": "T6/T6_bag_shoe_rack",
+  "task": "T6",
+  "sample": "T6_bag_shoe_rack"
+ },
+ {
+  "id": "T6/T6_banknote_card_coin",
+  "task": "T6",
+  "sample": "T6_banknote_card_coin"
+ },
+ {
+  "id": "T6/T6_bed_clothes_dirty",
+  "task": "T6",
+  "sample": "T6_bed_clothes_dirty"
+ },
+ {
+  "id": "T6/T6_blue_pouch_eyedrops",
+  "task": "T6",
+  "sample": "T6_blue_pouch_eyedrops"
+ },
+ {
+  "id": "T6/T6_book_miniature",
+  "task": "T6",
+  "sample": "T6_book_miniature"
+ },
+ {
+  "id": "T6/T6_bottle_cap",
+  "task": "T6",
+  "sample": "T6_bottle_cap"
+ },
+ {
+  "id": "T6/T6_bottle_pot_pebble",
+  "task": "T6",
+  "sample": "T6_bottle_pot_pebble"
+ },
+ {
+  "id": "T6/T6_box_medal",
+  "task": "T6",
+  "sample": "T6_box_medal"
+ },
+ {
+  "id": "T6/T6_broccoli_tofu_chicken",
+  "task": "T6",
+  "sample": "T6_broccoli_tofu_chicken"
+ },
+ {
+  "id": "T6/T6_butter_candy_mug",
+  "task": "T6",
+  "sample": "T6_butter_candy_mug"
+ },
+ {
+  "id": "T6/T6_candle_lighter",
+  "task": "T6",
+  "sample": "T6_candle_lighter"
+ },
+ {
+  "id": "T6/T6_charge_airpods_watch",
+  "task": "T6",
+  "sample": "T6_charge_airpods_watch"
+ },
+ {
+  "id": "T6/T6_clock_bottle_container",
+  "task": "T6",
+  "sample": "T6_clock_bottle_container"
+ },
+ {
+  "id": "T6/T6_coffee_beans",
+  "task": "T6",
+  "sample": "T6_coffee_beans"
+ },
+ {
+  "id": "T6/T6_coffee_plate_bottle",
+  "task": "T6",
+  "sample": "T6_coffee_plate_bottle"
+ },
+ {
+  "id": "T6/T6_controller_charger",
+  "task": "T6",
+  "sample": "T6_controller_charger"
+ },
+ {
+  "id": "T6/T6_controller_watch_ring",
+  "task": "T6",
+  "sample": "T6_controller_watch_ring"
+ },
+ {
+  "id": "T6/T6_cooking_oil",
+  "task": "T6",
+  "sample": "T6_cooking_oil"
+ },
+ {
+  "id": "T6/T6_cut_chocolate_bar",
+  "task": "T6",
+  "sample": "T6_cut_chocolate_bar"
+ },
+ {
+  "id": "T6/T6_cutlery_sorting",
+  "task": "T6",
+  "sample": "T6_cutlery_sorting"
+ },
+ {
+  "id": "T6/T6_desk_mat_tablet",
+  "task": "T6",
+  "sample": "T6_desk_mat_tablet"
+ },
+ {
+  "id": "T6/T6_dish_washdry",
+  "task": "T6",
+  "sample": "T6_dish_washdry"
+ },
+ {
+  "id": "T6/T6_dock_switch_game",
+  "task": "T6",
+  "sample": "T6_dock_switch_game"
+ },
+ {
+  "id": "T6/T6_doll_helmet",
+  "task": "T6",
+  "sample": "T6_doll_helmet"
+ },
+ {
+  "id": "T6/T6_double_shoe_box",
+  "task": "T6",
+  "sample": "T6_double_shoe_box"
+ },
+ {
+  "id": "T6/T6_egg_candy_air_fryer",
+  "task": "T6",
+  "sample": "T6_egg_candy_air_fryer"
+ },
+ {
+  "id": "T6/T6_egg_sauce_container",
+  "task": "T6",
+  "sample": "T6_egg_sauce_container"
+ },
+ {
+  "id": "T6/T6_eggs_and_egg_tray",
+  "task": "T6",
+  "sample": "T6_eggs_and_egg_tray"
+ },
+ {
+  "id": "T6/T6_erase_whiteboard",
+  "task": "T6",
+  "sample": "T6_erase_whiteboard"
+ },
+ {
+  "id": "T6/T6_ereader_earphone",
+  "task": "T6",
+  "sample": "T6_ereader_earphone"
+ },
+ {
+  "id": "T6/T6_eyedrop_chapstick",
+  "task": "T6",
+  "sample": "T6_eyedrop_chapstick"
+ },
+ {
+  "id": "T6/T6_eyeshadow_palette",
+  "task": "T6",
+  "sample": "T6_eyeshadow_palette"
+ },
+ {
+  "id": "T6/T6_figurine_toy_box",
+  "task": "T6",
+  "sample": "T6_figurine_toy_box"
+ },
+ {
+  "id": "T6/T6_four_in_a_row",
+  "task": "T6",
+  "sample": "T6_four_in_a_row"
+ },
+ {
+  "id": "T6/T6_group_supplements",
+  "task": "T6",
+  "sample": "T6_group_supplements"
+ },
+ {
+  "id": "T6/T6_handcuffs_stethoscope",
+  "task": "T6",
+  "sample": "T6_handcuffs_stethoscope"
+ },
+ {
+  "id": "T6/T6_hanger_grouping",
+  "task": "T6",
+  "sample": "T6_hanger_grouping"
+ },
+ {
+  "id": "T6/T6_hat_sorting",
+  "task": "T6",
+  "sample": "T6_hat_sorting"
+ },
+ {
+  "id": "T6/T6_headphone_mouse_book",
+  "task": "T6",
+  "sample": "T6_headphone_mouse_book"
+ },
+ {
+  "id": "T6/T6_ice_cream_milk_fridge",
+  "task": "T6",
+  "sample": "T6_ice_cream_milk_fridge"
+ },
+ {
+  "id": "T6/T6_kendama_can",
+  "task": "T6",
+  "sample": "T6_kendama_can"
+ },
+ {
+  "id": "T6/T6_key_lanyard",
+  "task": "T6",
+  "sample": "T6_key_lanyard"
+ },
+ {
+  "id": "T6/T6_keycap_eraser",
+  "task": "T6",
+  "sample": "T6_keycap_eraser"
+ },
+ {
+  "id": "T6/T6_laptop_open",
+  "task": "T6",
+  "sample": "T6_laptop_open"
+ },
+ {
+  "id": "T6/T6_laptop_setup",
+  "task": "T6",
+  "sample": "T6_laptop_setup"
+ },
+ {
+  "id": "T6/T6_lava_toast_microwave",
+  "task": "T6",
+  "sample": "T6_lava_toast_microwave"
+ },
+ {
+  "id": "T6/T6_light_bulb_glasses",
+  "task": "T6",
+  "sample": "T6_light_bulb_glasses"
+ },
+ {
+  "id": "T6/T6_line_marker_calculator",
+  "task": "T6",
+  "sample": "T6_line_marker_calculator"
+ },
+ {
+  "id": "T6/T6_make_coffee",
+  "task": "T6",
+  "sample": "T6_make_coffee"
+ },
+ {
+  "id": "T6/T6_makeup_pouch",
+  "task": "T6",
+  "sample": "T6_makeup_pouch"
+ },
+ {
+  "id": "T6/T6_makeup_red_container",
+  "task": "T6",
+  "sample": "T6_makeup_red_container"
+ },
+ {
+  "id": "T6/T6_mango_banana_cup",
+  "task": "T6",
+  "sample": "T6_mango_banana_cup"
+ },
+ {
+  "id": "T6/T6_mark_pen_board",
+  "task": "T6",
+  "sample": "T6_mark_pen_board"
+ },
+ {
+  "id": "T6/T6_matryoshka",
+  "task": "T6",
+  "sample": "T6_matryoshka"
+ },
+ {
+  "id": "T6/T6_matryoshka_battery",
+  "task": "T6",
+  "sample": "T6_matryoshka_battery"
+ },
+ {
+  "id": "T6/T6_messy_desk_monitor",
+  "task": "T6",
+  "sample": "T6_messy_desk_monitor"
+ },
+ {
+  "id": "T6/T6_move_juice",
+  "task": "T6",
+  "sample": "T6_move_juice"
+ },
+ {
+  "id": "T6/T6_mug_kitchen",
+  "task": "T6",
+  "sample": "T6_mug_kitchen"
+ },
+ {
+  "id": "T6/T6_oil_spray_pouch",
+  "task": "T6",
+  "sample": "T6_oil_spray_pouch"
+ },
+ {
+  "id": "T6/T6_pantry_jar_sachet",
+  "task": "T6",
+  "sample": "T6_pantry_jar_sachet"
+ },
+ {
+  "id": "T6/T6_paper_binder_book",
+  "task": "T6",
+  "sample": "T6_paper_binder_book"
+ },
+ {
+  "id": "T6/T6_perfume_scissors_folder",
+  "task": "T6",
+  "sample": "T6_perfume_scissors_folder"
+ },
+ {
+  "id": "T6/T6_plastic_trash_bin",
+  "task": "T6",
+  "sample": "T6_plastic_trash_bin"
+ },
+ {
+  "id": "T6/T6_pour_milk",
+  "task": "T6",
+  "sample": "T6_pour_milk"
+ },
+ {
+  "id": "T6/T6_prepare_camera_power_storage",
+  "task": "T6",
+  "sample": "T6_prepare_camera_power_storage"
+ },
+ {
+  "id": "T6/T6_racket_backpack",
+  "task": "T6",
+  "sample": "T6_racket_backpack"
+ },
+ {
+  "id": "T6/T6_racket_table_floor",
+  "task": "T6",
+  "sample": "T6_racket_table_floor"
+ },
+ {
+  "id": "T6/T6_radio_toy",
+  "task": "T6",
+  "sample": "T6_radio_toy"
+ },
+ {
+  "id": "T6/T6_remote_marker_stand",
+  "task": "T6",
+  "sample": "T6_remote_marker_stand"
+ },
+ {
+  "id": "T6/T6_router_laptop_cable",
+  "task": "T6",
+  "sample": "T6_router_laptop_cable"
+ },
+ {
+  "id": "T6/T6_royal_flush",
+  "task": "T6",
+  "sample": "T6_royal_flush"
+ },
+ {
+  "id": "T6/T6_rugby_dumbbell",
+  "task": "T6",
+  "sample": "T6_rugby_dumbbell"
+ },
+ {
+  "id": "T6/T6_sanitary_face_wash",
+  "task": "T6",
+  "sample": "T6_sanitary_face_wash"
+ },
+ {
+  "id": "T6/T6_sauce_tissue",
+  "task": "T6",
+  "sample": "T6_sauce_tissue"
+ },
+ {
+  "id": "T6/T6_scattered_teabags",
+  "task": "T6",
+  "sample": "T6_scattered_teabags"
+ },
+ {
+  "id": "T6/T6_screwdriver_wrench",
+  "task": "T6",
+  "sample": "T6_screwdriver_wrench"
+ },
+ {
+  "id": "T6/T6_shoes_sandals_boxes",
+  "task": "T6",
+  "sample": "T6_shoes_sandals_boxes"
+ },
+ {
+  "id": "T6/T6_shoes_socks_arrange",
+  "task": "T6",
+  "sample": "T6_shoes_socks_arrange"
+ },
+ {
+  "id": "T6/T6_soap_mix",
+  "task": "T6",
+  "sample": "T6_soap_mix"
+ },
+ {
+  "id": "T6/T6_sock_bucket",
+  "task": "T6",
+  "sample": "T6_sock_bucket"
+ },
+ {
+  "id": "T6/T6_stack_blocks",
+  "task": "T6",
+  "sample": "T6_stack_blocks"
+ },
+ {
+  "id": "T6/T6_stack_book_laptop",
+  "task": "T6",
+  "sample": "T6_stack_book_laptop"
+ },
+ {
+  "id": "T6/T6_stack_book_pen",
+  "task": "T6",
+  "sample": "T6_stack_book_pen"
+ },
+ {
+  "id": "T6/T6_stack_cap_bottle",
+  "task": "T6",
+  "sample": "T6_stack_cap_bottle"
+ },
+ {
+  "id": "T6/T6_stack_dishes_utensils",
+  "task": "T6",
+  "sample": "T6_stack_dishes_utensils"
+ },
+ {
+  "id": "T6/T6_staple_paper",
+  "task": "T6",
+  "sample": "T6_staple_paper"
+ },
+ {
+  "id": "T6/T6_sunblock_powder_bottle",
+  "task": "T6",
+  "sample": "T6_sunblock_powder_bottle"
+ },
+ {
+  "id": "T6/T6_swap_camera_lens",
+  "task": "T6",
+  "sample": "T6_swap_camera_lens"
+ },
+ {
+  "id": "T6/T6_tablet_cleaner",
+  "task": "T6",
+  "sample": "T6_tablet_cleaner"
+ },
+ {
+  "id": "T6/T6_tape_stapler_marker",
+  "task": "T6",
+  "sample": "T6_tape_stapler_marker"
+ },
+ {
+  "id": "T6/T6_tea_bags_and_cups",
+  "task": "T6",
+  "sample": "T6_tea_bags_and_cups"
+ },
+ {
+  "id": "T6/T6_three_caps",
+  "task": "T6",
+  "sample": "T6_three_caps"
+ },
+ {
+  "id": "T6/T6_three_cups_and_water",
+  "task": "T6",
+  "sample": "T6_three_cups_and_water"
+ },
+ {
+  "id": "T6/T6_three_shoes_and_rack",
+  "task": "T6",
+  "sample": "T6_three_shoes_and_rack"
+ },
+ {
+  "id": "T6/T6_three_spice_and_weight",
+  "task": "T6",
+  "sample": "T6_three_spice_and_weight"
+ },
+ {
+  "id": "T6/T6_tidy_container",
+  "task": "T6",
+  "sample": "T6_tidy_container"
+ },
+ {
+  "id": "T6/T6_tidy_personal_care_bottle",
+  "task": "T6",
+  "sample": "T6_tidy_personal_care_bottle"
+ },
+ {
+  "id": "T6/T6_toilet_broom_towel",
+  "task": "T6",
+  "sample": "T6_toilet_broom_towel"
+ },
+ {
+  "id": "T6/T6_toiletries_container",
+  "task": "T6",
+  "sample": "T6_toiletries_container"
+ },
+ {
+  "id": "T6/T6_toner_moisturizer_mix",
+  "task": "T6",
+  "sample": "T6_toner_moisturizer_mix"
+ },
+ {
+  "id": "T6/T6_toothbrush_case",
+  "task": "T6",
+  "sample": "T6_toothbrush_case"
+ },
+ {
+  "id": "T6/T6_toothbrush_trimmer",
+  "task": "T6",
+  "sample": "T6_toothbrush_trimmer"
+ },
+ {
+  "id": "T6/T6_toothpaste_water",
+  "task": "T6",
+  "sample": "T6_toothpaste_water"
+ },
+ {
+  "id": "T6/T6_toy_fan",
+  "task": "T6",
+  "sample": "T6_toy_fan"
+ },
+ {
+  "id": "T6/T6_trophy_luggage",
+  "task": "T6",
+  "sample": "T6_trophy_luggage"
+ },
+ {
+  "id": "T6/T6_vim_lunchbox",
+  "task": "T6",
+  "sample": "T6_vim_lunchbox"
+ },
+ {
+  "id": "T6/T6_water_flour",
+  "task": "T6",
+  "sample": "T6_water_flour"
+ },
+ {
+  "id": "T7/T7_0001_left_ball-and-block-fall",
+  "task": "T7",
+  "sample": "T7_0001_left_ball-and-block-fall"
+ },
+ {
+  "id": "T7/T7_0005_center_ball-behind-rotating-paper",
+  "task": "T7",
+  "sample": "T7_0005_center_ball-behind-rotating-paper"
+ },
+ {
+  "id": "T7/T7_0009_right_ball-hits-duck",
+  "task": "T7",
+  "sample": "T7_0009_right_ball-hits-duck"
+ },
+ {
+  "id": "T7/T7_0012_right_ball-hits-nothing",
+  "task": "T7",
+  "sample": "T7_0012_right_ball-hits-nothing"
+ },
+ {
+  "id": "T7/T7_0013_left_ball-in-basket",
+  "task": "T7",
+  "sample": "T7_0013_left_ball-in-basket"
+ },
+ {
+  "id": "T7/T7_0017_center_ball-in-sand",
+  "task": "T7",
+  "sample": "T7_0017_center_ball-in-sand"
+ },
+ {
+  "id": "T7/T7_0019_left_ball-ramp",
+  "task": "T7",
+  "sample": "T7_0019_left_ball-ramp"
+ },
+ {
+  "id": "T7/T7_0024_right_ball-rolls-off",
+  "task": "T7",
+  "sample": "T7_0024_right_ball-rolls-off"
+ },
+ {
+  "id": "T7/T7_0027_right_ball-rolls-on-glass",
+  "task": "T7",
+  "sample": "T7_0027_right_ball-rolls-on-glass"
+ },
+ {
+  "id": "T7/T7_0030_right_ball-train",
+  "task": "T7",
+  "sample": "T7_0030_right_ball-train"
+ },
+ {
+  "id": "T7/T7_0031_left_balls-collide",
+  "task": "T7",
+  "sample": "T7_0031_left_balls-collide"
+ },
+ {
+  "id": "T7/T7_0034_left_block-domino",
+  "task": "T7",
+  "sample": "T7_0034_left_block-domino"
+ },
+ {
+  "id": "T7/T7_0038_center_blow-balloon",
+  "task": "T7",
+  "sample": "T7_0038_center_blow-balloon"
+ },
+ {
+  "id": "T7/T7_0042_right_cut-orange",
+  "task": "T7",
+  "sample": "T7_0042_right_cut-orange"
+ },
+ {
+  "id": "T7/T7_0044_center_cut-paper",
+  "task": "T7",
+  "sample": "T7_0044_center_cut-paper"
+ },
+ {
+  "id": "T7/T7_0046_left_domino-in-juice",
+  "task": "T7",
+  "sample": "T7_0046_left_domino-in-juice"
+ },
+ {
+  "id": "T7/T7_0050_center_dominos-with-space",
+  "task": "T7",
+  "sample": "T7_0050_center_dominos-with-space"
+ },
+ {
+  "id": "T7/T7_0053_center_double-cradle",
+  "task": "T7",
+  "sample": "T7_0053_center_double-cradle"
+ },
+ {
+  "id": "T7/T7_0056_center_duck-and-dominos",
+  "task": "T7",
+  "sample": "T7_0056_center_duck-and-dominos"
+ },
+ {
+  "id": "T7/T7_0058_left_duck-falls-in-box",
+  "task": "T7",
+  "sample": "T7_0058_left_duck-falls-in-box"
+ },
+ {
+  "id": "T7/T7_0062_center_duck-static",
+  "task": "T7",
+  "sample": "T7_0062_center_duck-static"
+ },
+ {
+  "id": "T7/T7_0066_right_fill-glass-red-drink",
+  "task": "T7",
+  "sample": "T7_0066_right_fill-glass-red-drink"
+ },
+ {
+  "id": "T7/T7_0068_center_glass-stays-same",
+  "task": "T7",
+  "sample": "T7_0068_center_glass-stays-same"
+ },
+ {
+  "id": "T7/T7_0071_center_juice-in-water",
+  "task": "T7",
+  "sample": "T7_0071_center_juice-in-water"
+ },
+ {
+  "id": "T7/T7_0074_center_light-on-block",
+  "task": "T7",
+  "sample": "T7_0074_center_light-on-block"
+ },
+ {
+  "id": "T7/T7_0077_center_light-on-mug",
+  "task": "T7",
+  "sample": "T7_0077_center_light-on-mug"
+ },
+ {
+  "id": "T7/T7_0080_center_light-on-mug-block",
+  "task": "T7",
+  "sample": "T7_0080_center_light-on-mug-block"
+ },
+ {
+  "id": "T7/T7_0084_right_light-on-statue",
+  "task": "T7",
+  "sample": "T7_0084_right_light-on-statue"
+ },
+ {
+  "id": "T7/T7_0087_right_liquid-on-duck",
+  "task": "T7",
+  "sample": "T7_0087_right_liquid-on-duck"
+ },
+ {
+  "id": "T7/T7_0090_right_liquid-overfill",
+  "task": "T7",
+  "sample": "T7_0090_right_liquid-overfill"
+ },
+ {
+  "id": "T7/T7_0092_center_lit-candle",
+  "task": "T7",
+  "sample": "T7_0092_center_lit-candle"
+ },
+ {
+  "id": "T7/T7_0094_left_magnet-domino",
+  "task": "T7",
+  "sample": "T7_0094_left_magnet-domino"
+ },
+ {
+  "id": "T7/T7_0098_center_magnet-transparent-peakaboo",
+  "task": "T7",
+  "sample": "T7_0098_center_magnet-transparent-peakaboo"
+ },
+ {
+  "id": "T7/T7_0100_left_magnet-wrench",
+  "task": "T7",
+  "sample": "T7_0100_left_magnet-wrench"
+ },
+ {
+  "id": "T7/T7_0104_center_marble-run-x",
+  "task": "T7",
+  "sample": "T7_0104_center_marble-run-x"
+ },
+ {
+  "id": "T7/T7_0107_center_marble-run-y",
+  "task": "T7",
+  "sample": "T7_0107_center_marble-run-y"
+ },
+ {
+  "id": "T7/T7_0110_center_match",
+  "task": "T7",
+  "sample": "T7_0110_center_match"
+ },
+ {
+  "id": "T7/T7_0113_center_match-blows-balloon",
+  "task": "T7",
+  "sample": "T7_0113_center_match-blows-balloon"
+ },
+ {
+  "id": "T7/T7_0116_center_mirror-ball-fall",
+  "task": "T7",
+  "sample": "T7_0116_center_mirror-ball-fall"
+ },
+ {
+  "id": "T7/T7_0118_left_mirror-ball-rotate",
+  "task": "T7",
+  "sample": "T7_0118_left_mirror-ball-rotate"
+ },
+ {
+  "id": "T7/T7_0123_right_mirror-teapot-rotate",
+  "task": "T7",
+  "sample": "T7_0123_right_mirror-teapot-rotate"
+ },
+ {
+  "id": "T7/T7_0125_center_mug-breaks",
+  "task": "T7",
+  "sample": "T7_0125_center_mug-breaks"
+ },
+ {
+  "id": "T7/T7_0128_center_napkin-soak",
+  "task": "T7",
+  "sample": "T7_0128_center_napkin-soak"
+ },
+ {
+  "id": "T7/T7_0131_center_paint-on-glass",
+  "task": "T7",
+  "sample": "T7_0131_center_paint-on-glass"
+ },
+ {
+  "id": "T7/T7_0134_center_paper-fall-water",
+  "task": "T7",
+  "sample": "T7_0134_center_paper-fall-water"
+ },
+ {
+  "id": "T7/T7_0136_left_paper-in-water",
+  "task": "T7",
+  "sample": "T7_0136_left_paper-in-water"
+ },
+ {
+  "id": "T7/T7_0139_left_paper-smoke",
+  "task": "T7",
+  "sample": "T7_0139_left_paper-smoke"
+ },
+ {
+  "id": "T7/T7_0144_right_potato-in-water",
+  "task": "T7",
+  "sample": "T7_0144_right_potato-in-water"
+ },
+ {
+  "id": "T7/T7_0146_center_roll-behind-box",
+  "task": "T7",
+  "sample": "T7_0146_center_roll-behind-box"
+ },
+ {
+  "id": "T7/T7_0149_center_roll-front-box",
+  "task": "T7",
+  "sample": "T7_0149_center_roll-front-box"
+ },
+ {
+  "id": "T7/T7_0152_center_roll-in-box",
+  "task": "T7",
+  "sample": "T7_0152_center_roll-in-box"
+ },
+ {
+  "id": "T7/T7_0154_left_rolling-reflection",
+  "task": "T7",
+  "sample": "T7_0154_left_rolling-reflection"
+ },
+ {
+  "id": "T7/T7_0158_center_silk-cover",
+  "task": "T7",
+  "sample": "T7_0158_center_silk-cover"
+ },
+ {
+  "id": "T7/T7_0160_left_single-cradle",
+  "task": "T7",
+  "sample": "T7_0160_left_single-cradle"
+ },
+ {
+  "id": "T7/T7_0164_center_siphon",
+  "task": "T7",
+  "sample": "T7_0164_center_siphon"
+ },
+ {
+  "id": "T7/T7_0167_center_smiley-ball-rotates",
+  "task": "T7",
+  "sample": "T7_0167_center_smiley-ball-rotates"
+ },
+ {
+  "id": "T7/T7_0170_center_solid-ball-peakaboo",
+  "task": "T7",
+  "sample": "T7_0170_center_solid-ball-peakaboo"
+ },
+ {
+  "id": "T7/T7_0172_left_stable-blocks",
+  "task": "T7",
+  "sample": "T7_0172_left_stable-blocks"
+ },
+ {
+  "id": "T7/T7_0176_center_teapot-rotates",
+  "task": "T7",
+  "sample": "T7_0176_center_teapot-rotates"
+ },
+ {
+  "id": "T7/T7_0180_right_two-balls-pass",
+  "task": "T7",
+  "sample": "T7_0180_right_two-balls-pass"
+ },
+ {
+  "id": "T7/T7_0182_center_unstable-block-stack",
+  "task": "T7",
+  "sample": "T7_0182_center_unstable-block-stack"
+ },
+ {
+  "id": "T7/T7_0185_center_water-in-juice",
+  "task": "T7",
+  "sample": "T7_0185_center_water-in-juice"
+ },
+ {
+  "id": "T7/T7_0188_center_weight-on-ceramic",
+  "task": "T7",
+  "sample": "T7_0188_center_weight-on-ceramic"
+ },
+ {
+  "id": "T7/T7_0191_center_weight-on-paper",
+  "task": "T7",
+  "sample": "T7_0191_center_weight-on-paper"
+ },
+ {
+  "id": "T7/T7_0195_right_weight-on-pillow",
+  "task": "T7",
+  "sample": "T7_0195_right_weight-on-pillow"
+ },
+ {
+  "id": "T7/T7_0196_left_weight-protects-duck",
+  "task": "T7",
+  "sample": "T7_0196_left_weight-protects-duck"
+ }
+]

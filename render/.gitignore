@@ -1,0 +1,10 @@
+# Made at run time; see README.md for how each is (re)generated.
+inputs/
+inputs_h3only/
+prompts_*/
+runs/
+outputs/
+logs/
+review/
+run_t6_t7.out
+__pycache__/

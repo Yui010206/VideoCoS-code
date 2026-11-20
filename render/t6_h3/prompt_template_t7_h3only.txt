@@ -1,0 +1,22 @@
+subject_definitions:
+<Picture 1> is the first frame of [Shot 1], a real photograph of the scene.
+<Picture 2> is the same photograph, the appearance reference for the scene.
+<Subject 1> is the scene in <Picture 1> with all of its objects, whose appearance comes from <Picture 2>.
+
+summary:
+[reference generation + keyframe completion] Fixed Camera. The target video starts from <Picture 1> and shows what happens next to <Subject 1>, in a realistic and physically plausible way. {description}
+
+retention_analysis:
+<Picture 1> ([Shot 1] first frame): fully_preserved - the scene, its objects, the lighting and the framing.
+<Picture 2> (appearance reference): fully_preserved - the appearance of every object.
+<Subject 1> (appears in [Shot 1]): fully_preserved - the real appearance of every object.
+
+detailed_description:
+The target video is realistic, with the look and lighting of <Picture 1>. Fixed Camera: the camera holds a static shot from the first frame to the last.
+[Shot 1] The shot begins from <Picture 1>. The motions follow natural physics. {description}
+
+overall_soundscape:
+Quiet room tone with the natural sounds of the scene.
+
+non_diegetic_music:
+N/A

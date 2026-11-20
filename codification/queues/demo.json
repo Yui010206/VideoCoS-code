@@ -1,0 +1,44 @@
+[
+ {
+  "id": "scene0221_01",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0221_01.mp4",
+  "seconds": 32.5
+ },
+ {
+  "id": "scene0164_02",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0164_02.mp4",
+  "seconds": 50.1
+ },
+ {
+  "id": "T5/scn02900",
+  "task": "T5",
+  "sample": "T5_scn02900_v0_v15"
+ },
+ {
+  "id": "T5/scn02905",
+  "task": "T5",
+  "sample": "T5_scn02905_v0_v4"
+ },
+ {
+  "id": "T6/T6_stack_blocks",
+  "task": "T6",
+  "sample": "T6_stack_blocks"
+ },
+ {
+  "id": "T6/T6_blue_pouch_eyedrops",
+  "task": "T6",
+  "sample": "T6_blue_pouch_eyedrops"
+ },
+ {
+  "id": "T7/T7_0001_left_ball-and-block-fall",
+  "task": "T7",
+  "sample": "T7_0001_left_ball-and-block-fall"
+ },
+ {
+  "id": "T7/T7_0050_center_dominos-with-space",
+  "task": "T7",
+  "sample": "T7_0050_center_dominos-with-space"
+ }
+]

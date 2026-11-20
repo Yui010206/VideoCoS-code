@@ -1,0 +1,49 @@
+{
+ "_note": "T1-T4, VSI-Bench room walkthroughs (1.5-7 min): DA3-Streaming geometry (120-frame chunks overlapping by 60, loop closure), every frame decoded at 10 fps with no camera-cut split, SAM 3 tracks in 150-frame windows, open detection on 144 frames; codification in the fast room mode (base_scene.py with the room shell and arrange_room, the layout gate, no inventory gate; the agent gets 12 minutes).",
+ "include": "../machine.json",
+ "decode": {
+  "start_frame": 0,
+  "fps": [
+   10,
+   1
+  ],
+  "jpeg_quality": 95,
+  "cut_threshold": -0.3
+ },
+ "vocabulary": {
+  "max_names": 40
+ },
+ "geometry": {
+  "streaming": {
+   "chunk_size": 120,
+   "overlap": 60,
+   "loop_enable": true
+  }
+ },
+ "tracks": {
+  "window": 150,
+  "window_overlap": 10,
+  "link_iou": 0.5
+ },
+ "fuse": {},
+ "proposals": {
+  "frames": 144,
+  "track_window": 100
+ },
+ "agent": {
+  "budget": {
+   "max_model_requests": 25,
+   "max_wall_seconds": 5400,
+   "max_usd": 1.0
+  },
+  "arrange": {
+   "max_floating_share": 0.05,
+   "max_deep_share": 0.25,
+   "deep_m": 0.08
+  },
+  "fast_room": true,
+  "codex_max_revisions": 16,
+  "keep_failed_build": true,
+  "inventory_gate": false
+ }
+}

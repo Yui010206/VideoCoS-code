@@ -1,0 +1,20 @@
+# run-time products: never part of the code
+**/outputs/
+**/outputs_*/
+**/runs/
+**/logs/
+**/review/
+**/inputs/
+**/inputs_h3only/
+**/prompts_*/
+**/queues/PAUSE
+**/.venv*/
+**/__pycache__/
+*.pyc
+.pytest_cache/
+*.out
+*.log
+# downloaded data: scripts/download_demo.sh, scripts/fetch_vsi_videos.py, or the full datasets (bench/README.md)
+bench/data/
+demo/
+VideoCoS-demo.zip*

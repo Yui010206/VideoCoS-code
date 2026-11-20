@@ -1,0 +1,1646 @@
+[
+ {
+  "id": "scene0461_00",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0461_00.mp4",
+  "seconds": 21.7
+ },
+ {
+  "id": "scene0193_01",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0193_01.mp4",
+  "seconds": 22.3
+ },
+ {
+  "id": "scene0684_01",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0684_01.mp4",
+  "seconds": 22.4
+ },
+ {
+  "id": "scene0658_00",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0658_00.mp4",
+  "seconds": 22.8
+ },
+ {
+  "id": "47331336",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/47331336.mp4",
+  "seconds": 24.0
+ },
+ {
+  "id": "scene0153_00",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0153_00.mp4",
+  "seconds": 24.2
+ },
+ {
+  "id": "scene0671_01",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0671_01.mp4",
+  "seconds": 26.2
+ },
+ {
+  "id": "44358536",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/44358536.mp4",
+  "seconds": 28.2
+ },
+ {
+  "id": "47430007",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/47430007.mp4",
+  "seconds": 29.5
+ },
+ {
+  "id": "scene0702_02",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0702_02.mp4",
+  "seconds": 30.0
+ },
+ {
+  "id": "scene0494_00",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0494_00.mp4",
+  "seconds": 30.9
+ },
+ {
+  "id": "scene0441_00",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0441_00.mp4",
+  "seconds": 31.9
+ },
+ {
+  "id": "scene0316_00",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0316_00.mp4",
+  "seconds": 32.1
+ },
+ {
+  "id": "scene0221_01",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0221_01.mp4",
+  "seconds": 32.5
+ },
+ {
+  "id": "scene0338_00",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0338_00.mp4",
+  "seconds": 33.5
+ },
+ {
+  "id": "41069048",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/41069048.mp4",
+  "seconds": 33.6
+ },
+ {
+  "id": "45261594",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/45261594.mp4",
+  "seconds": 34.7
+ },
+ {
+  "id": "scene0651_02",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0651_02.mp4",
+  "seconds": 35.3
+ },
+ {
+  "id": "scene0474_04",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0474_04.mp4",
+  "seconds": 35.3
+ },
+ {
+  "id": "scene0277_02",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0277_02.mp4",
+  "seconds": 35.9
+ },
+ {
+  "id": "47430048",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/47430048.mp4",
+  "seconds": 36.2
+ },
+ {
+  "id": "47430034",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/47430034.mp4",
+  "seconds": 36.5
+ },
+ {
+  "id": "47430038",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/47430038.mp4",
+  "seconds": 37.3
+ },
+ {
+  "id": "scene0357_01",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0357_01.mp4",
+  "seconds": 37.8
+ },
+ {
+  "id": "45260900",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/45260900.mp4",
+  "seconds": 38.9
+ },
+ {
+  "id": "scene0077_01",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0077_01.mp4",
+  "seconds": 39.0
+ },
+ {
+  "id": "45261575",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/45261575.mp4",
+  "seconds": 40.8
+ },
+ {
+  "id": "scene0701_00",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0701_00.mp4",
+  "seconds": 42.1
+ },
+ {
+  "id": "scene0100_00",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0100_00.mp4",
+  "seconds": 42.3
+ },
+ {
+  "id": "47331331",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/47331331.mp4",
+  "seconds": 42.7
+ },
+ {
+  "id": "scene0665_00",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0665_00.mp4",
+  "seconds": 43.2
+ },
+ {
+  "id": "47429977",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/47429977.mp4",
+  "seconds": 43.6
+ },
+ {
+  "id": "scene0565_00",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0565_00.mp4",
+  "seconds": 44.4
+ },
+ {
+  "id": "scene0088_01",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0088_01.mp4",
+  "seconds": 44.4
+ },
+ {
+  "id": "scene0647_00",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0647_00.mp4",
+  "seconds": 45.6
+ },
+ {
+  "id": "scene0488_01",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0488_01.mp4",
+  "seconds": 45.7
+ },
+ {
+  "id": "47429912",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/47429912.mp4",
+  "seconds": 45.7
+ },
+ {
+  "id": "42899698",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/42899698.mp4",
+  "seconds": 46.3
+ },
+ {
+  "id": "scene0354_00",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0354_00.mp4",
+  "seconds": 46.9
+ },
+ {
+  "id": "42898826",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/42898826.mp4",
+  "seconds": 47.3
+ },
+ {
+  "id": "scene0146_01",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0146_01.mp4",
+  "seconds": 47.5
+ },
+ {
+  "id": "scene0462_00",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0462_00.mp4",
+  "seconds": 47.5
+ },
+ {
+  "id": "42897528",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/42897528.mp4",
+  "seconds": 47.6
+ },
+ {
+  "id": "47115525",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/47115525.mp4",
+  "seconds": 48.5
+ },
+ {
+  "id": "45261150",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/45261150.mp4",
+  "seconds": 48.9
+ },
+ {
+  "id": "47429904",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/47429904.mp4",
+  "seconds": 49.6
+ },
+ {
+  "id": "45261142",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/45261142.mp4",
+  "seconds": 49.8
+ },
+ {
+  "id": "45260928",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/45260928.mp4",
+  "seconds": 50.0
+ },
+ {
+  "id": "scene0164_02",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0164_02.mp4",
+  "seconds": 50.1
+ },
+ {
+  "id": "44358442",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/44358442.mp4",
+  "seconds": 51.1
+ },
+ {
+  "id": "42899725",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/42899725.mp4",
+  "seconds": 51.4
+ },
+ {
+  "id": "scene0664_02",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0664_02.mp4",
+  "seconds": 51.8
+ },
+ {
+  "id": "scene0081_02",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0081_02.mp4",
+  "seconds": 52.2
+ },
+ {
+  "id": "42898817",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/42898817.mp4",
+  "seconds": 52.4
+ },
+ {
+  "id": "47333436",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/47333436.mp4",
+  "seconds": 52.8
+ },
+ {
+  "id": "scene0086_02",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0086_02.mp4",
+  "seconds": 52.8
+ },
+ {
+  "id": "47332886",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/47332886.mp4",
+  "seconds": 53.5
+ },
+ {
+  "id": "47115469",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/47115469.mp4",
+  "seconds": 53.5
+ },
+ {
+  "id": "42899720",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/42899720.mp4",
+  "seconds": 54.8
+ },
+ {
+  "id": "47204578",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/47204578.mp4",
+  "seconds": 54.9
+ },
+ {
+  "id": "47333457",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/47333457.mp4",
+  "seconds": 55.4
+ },
+ {
+  "id": "scene0496_00",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0496_00.mp4",
+  "seconds": 55.7
+ },
+ {
+  "id": "47334239",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/47334239.mp4",
+  "seconds": 55.7
+ },
+ {
+  "id": "45663105",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/45663105.mp4",
+  "seconds": 56.0
+ },
+ {
+  "id": "3f15a9266d",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannetpp/3f15a9266d.mp4",
+  "seconds": 56.4
+ },
+ {
+  "id": "47331316",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/47331316.mp4",
+  "seconds": 56.5
+ },
+ {
+  "id": "42446517",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/42446517.mp4",
+  "seconds": 56.6
+ },
+ {
+  "id": "scene0356_00",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0356_00.mp4",
+  "seconds": 56.7
+ },
+ {
+  "id": "41142280",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/41142280.mp4",
+  "seconds": 58.2
+ },
+ {
+  "id": "42899617",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/42899617.mp4",
+  "seconds": 58.3
+ },
+ {
+  "id": "47331319",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/47331319.mp4",
+  "seconds": 58.5
+ },
+ {
+  "id": "scene0568_02",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0568_02.mp4",
+  "seconds": 58.7
+ },
+ {
+  "id": "scene0149_00",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0149_00.mp4",
+  "seconds": 58.7
+ },
+ {
+  "id": "scene0328_00",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0328_00.mp4",
+  "seconds": 58.8
+ },
+ {
+  "id": "47429922",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/47429922.mp4",
+  "seconds": 58.8
+ },
+ {
+  "id": "42897564",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/42897564.mp4",
+  "seconds": 58.9
+ },
+ {
+  "id": "scene0144_00",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0144_00.mp4",
+  "seconds": 59.9
+ },
+ {
+  "id": "a24f64f7fb",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannetpp/a24f64f7fb.mp4",
+  "seconds": 60.6
+ },
+ {
+  "id": "47332901",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/47332901.mp4",
+  "seconds": 60.6
+ },
+ {
+  "id": "45261620",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/45261620.mp4",
+  "seconds": 60.9
+ },
+ {
+  "id": "scene0518_00",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0518_00.mp4",
+  "seconds": 61.0
+ },
+ {
+  "id": "scene0203_01",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0203_01.mp4",
+  "seconds": 61.1
+ },
+ {
+  "id": "47333441",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/47333441.mp4",
+  "seconds": 62.1
+ },
+ {
+  "id": "scene0553_00",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0553_00.mp4",
+  "seconds": 62.5
+ },
+ {
+  "id": "42899739",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/42899739.mp4",
+  "seconds": 62.6
+ },
+ {
+  "id": "45261121",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/45261121.mp4",
+  "seconds": 63.4
+ },
+ {
+  "id": "scene0686_00",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0686_00.mp4",
+  "seconds": 63.5
+ },
+ {
+  "id": "47429992",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/47429992.mp4",
+  "seconds": 64.1
+ },
+ {
+  "id": "scene0251_00",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0251_00.mp4",
+  "seconds": 64.2
+ },
+ {
+  "id": "47204566",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/47204566.mp4",
+  "seconds": 64.6
+ },
+ {
+  "id": "42446151",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/42446151.mp4",
+  "seconds": 64.6
+ },
+ {
+  "id": "42899729",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/42899729.mp4",
+  "seconds": 65.1
+ },
+ {
+  "id": "scene0169_01",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0169_01.mp4",
+  "seconds": 65.2
+ },
+ {
+  "id": "scene0095_01",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0095_01.mp4",
+  "seconds": 65.8
+ },
+ {
+  "id": "42445026",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/42445026.mp4",
+  "seconds": 65.9
+ },
+ {
+  "id": "scene0633_00",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0633_00.mp4",
+  "seconds": 66.5
+ },
+ {
+  "id": "47332899",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/47332899.mp4",
+  "seconds": 66.8
+ },
+ {
+  "id": "47430023",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/47430023.mp4",
+  "seconds": 66.8
+ },
+ {
+  "id": "45662987",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/45662987.mp4",
+  "seconds": 67.3
+ },
+ {
+  "id": "42446167",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/42446167.mp4",
+  "seconds": 67.4
+ },
+ {
+  "id": "scene0435_02",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0435_02.mp4",
+  "seconds": 67.4
+ },
+ {
+  "id": "47332918",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/47332918.mp4",
+  "seconds": 68.0
+ },
+ {
+  "id": "47334107",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/47334107.mp4",
+  "seconds": 68.2
+ },
+ {
+  "id": "47333924",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/47333924.mp4",
+  "seconds": 68.3
+ },
+ {
+  "id": "45663154",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/45663154.mp4",
+  "seconds": 69.0
+ },
+ {
+  "id": "47331262",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/47331262.mp4",
+  "seconds": 69.1
+ },
+ {
+  "id": "45662970",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/45662970.mp4",
+  "seconds": 70.2
+ },
+ {
+  "id": "scene0574_01",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0574_01.mp4",
+  "seconds": 70.2
+ },
+ {
+  "id": "47430475",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/47430475.mp4",
+  "seconds": 70.6
+ },
+ {
+  "id": "47430468",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/47430468.mp4",
+  "seconds": 70.8
+ },
+ {
+  "id": "47115543",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/47115543.mp4",
+  "seconds": 71.1
+ },
+ {
+  "id": "42899696",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/42899696.mp4",
+  "seconds": 71.1
+ },
+ {
+  "id": "scene0591_01",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0591_01.mp4",
+  "seconds": 71.8
+ },
+ {
+  "id": "44358582",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/44358582.mp4",
+  "seconds": 72.0
+ },
+ {
+  "id": "scene0693_00",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0693_00.mp4",
+  "seconds": 72.2
+ },
+ {
+  "id": "42445031",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/42445031.mp4",
+  "seconds": 73.7
+ },
+ {
+  "id": "scene0304_00",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0304_00.mp4",
+  "seconds": 73.9
+ },
+ {
+  "id": "42444954",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/42444954.mp4",
+  "seconds": 74.2
+ },
+ {
+  "id": "scene0025_01",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0025_01.mp4",
+  "seconds": 74.2
+ },
+ {
+  "id": "scene0704_01",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0704_01.mp4",
+  "seconds": 74.5
+ },
+ {
+  "id": "47115460",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/47115460.mp4",
+  "seconds": 75.4
+ },
+ {
+  "id": "7bc286c1b6",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannetpp/7bc286c1b6.mp4",
+  "seconds": 75.7
+ },
+ {
+  "id": "scene0695_00",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0695_00.mp4",
+  "seconds": 75.8
+ },
+ {
+  "id": "47333899",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/47333899.mp4",
+  "seconds": 76.8
+ },
+ {
+  "id": "47333940",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/47333940.mp4",
+  "seconds": 77.7
+ },
+ {
+  "id": "45260905",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/45260905.mp4",
+  "seconds": 78.2
+ },
+ {
+  "id": "42446529",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/42446529.mp4",
+  "seconds": 78.2
+ },
+ {
+  "id": "47331068",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/47331068.mp4",
+  "seconds": 78.4
+ },
+ {
+  "id": "45662924",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/45662924.mp4",
+  "seconds": 78.7
+ },
+ {
+  "id": "scene0696_01",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0696_01.mp4",
+  "seconds": 79.8
+ },
+ {
+  "id": "scene0196_00",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0196_00.mp4",
+  "seconds": 80.0
+ },
+ {
+  "id": "scene0030_02",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0030_02.mp4",
+  "seconds": 80.1
+ },
+ {
+  "id": "scene0643_00",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0643_00.mp4",
+  "seconds": 80.6
+ },
+ {
+  "id": "47331668",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/47331668.mp4",
+  "seconds": 80.8
+ },
+ {
+  "id": "scene0685_00",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0685_00.mp4",
+  "seconds": 81.6
+ },
+ {
+  "id": "42898869",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/42898869.mp4",
+  "seconds": 81.7
+ },
+ {
+  "id": "44358436",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/44358436.mp4",
+  "seconds": 82.0
+ },
+ {
+  "id": "scene0458_00",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0458_00.mp4",
+  "seconds": 82.7
+ },
+ {
+  "id": "42444950",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/42444950.mp4",
+  "seconds": 83.1
+ },
+ {
+  "id": "42446049",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/42446049.mp4",
+  "seconds": 83.5
+ },
+ {
+  "id": "42445429",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/42445429.mp4",
+  "seconds": 84.3
+ },
+ {
+  "id": "41254402",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/41254402.mp4",
+  "seconds": 84.4
+ },
+ {
+  "id": "41125731",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/41125731.mp4",
+  "seconds": 85.0
+ },
+ {
+  "id": "47333918",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/47333918.mp4",
+  "seconds": 85.0
+ },
+ {
+  "id": "47334254",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/47334254.mp4",
+  "seconds": 86.0
+ },
+ {
+  "id": "41159541",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/41159541.mp4",
+  "seconds": 86.5
+ },
+ {
+  "id": "scene0307_02",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0307_02.mp4",
+  "seconds": 87.1
+ },
+ {
+  "id": "47334372",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/47334372.mp4",
+  "seconds": 87.2
+ },
+ {
+  "id": "47334103",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/47334103.mp4",
+  "seconds": 88.3
+ },
+ {
+  "id": "c49a8c6cff",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannetpp/c49a8c6cff.mp4",
+  "seconds": 88.5
+ },
+ {
+  "id": "41159530",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/41159530.mp4",
+  "seconds": 88.7
+ },
+ {
+  "id": "0d2ee665be",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannetpp/0d2ee665be.mp4",
+  "seconds": 90.0
+ },
+ {
+  "id": "825d228aec",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannetpp/825d228aec.mp4",
+  "seconds": 90.7
+ },
+ {
+  "id": "scene0500_00",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0500_00.mp4",
+  "seconds": 90.9
+ },
+ {
+  "id": "286b55a2bf",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannetpp/286b55a2bf.mp4",
+  "seconds": 91.1
+ },
+ {
+  "id": "41254246",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/41254246.mp4",
+  "seconds": 91.5
+ },
+ {
+  "id": "scene0699_00",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0699_00.mp4",
+  "seconds": 91.5
+ },
+ {
+  "id": "bcd2436daf",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannetpp/bcd2436daf.mp4",
+  "seconds": 91.9
+ },
+ {
+  "id": "1ada7a0617",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannetpp/1ada7a0617.mp4",
+  "seconds": 92.0
+ },
+ {
+  "id": "47430422",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/47430422.mp4",
+  "seconds": 92.3
+ },
+ {
+  "id": "45261182",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/45261182.mp4",
+  "seconds": 92.9
+ },
+ {
+  "id": "42899612",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/42899612.mp4",
+  "seconds": 94.3
+ },
+ {
+  "id": "scene0593_00",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0593_00.mp4",
+  "seconds": 95.7
+ },
+ {
+  "id": "scene0426_00",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0426_00.mp4",
+  "seconds": 95.9
+ },
+ {
+  "id": "scene0378_01",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0378_01.mp4",
+  "seconds": 96.0
+ },
+ {
+  "id": "44358499",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/44358499.mp4",
+  "seconds": 96.1
+ },
+ {
+  "id": "42444976",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/42444976.mp4",
+  "seconds": 96.4
+ },
+ {
+  "id": "e398684d27",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannetpp/e398684d27.mp4",
+  "seconds": 97.8
+ },
+ {
+  "id": "42445984",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/42445984.mp4",
+  "seconds": 98.0
+ },
+ {
+  "id": "41069043",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/41069043.mp4",
+  "seconds": 98.4
+ },
+ {
+  "id": "scene0412_00",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0412_00.mp4",
+  "seconds": 98.5
+ },
+ {
+  "id": "42899685",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/42899685.mp4",
+  "seconds": 99.9
+ },
+ {
+  "id": "42899461",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/42899461.mp4",
+  "seconds": 100.5
+ },
+ {
+  "id": "f2dc06b1d2",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannetpp/f2dc06b1d2.mp4",
+  "seconds": 101.5
+ },
+ {
+  "id": "a980334473",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannetpp/a980334473.mp4",
+  "seconds": 102.4
+ },
+ {
+  "id": "9071e139d9",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannetpp/9071e139d9.mp4",
+  "seconds": 102.6
+ },
+ {
+  "id": "scene0046_01",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0046_01.mp4",
+  "seconds": 102.9
+ },
+ {
+  "id": "47334117",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/47334117.mp4",
+  "seconds": 103.6
+ },
+ {
+  "id": "3864514494",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannetpp/3864514494.mp4",
+  "seconds": 103.8
+ },
+ {
+  "id": "45260856",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/45260856.mp4",
+  "seconds": 104.5
+ },
+ {
+  "id": "42897538",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/42897538.mp4",
+  "seconds": 106.4
+ },
+ {
+  "id": "41125700",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/41125700.mp4",
+  "seconds": 107.0
+ },
+ {
+  "id": "scene0207_02",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0207_02.mp4",
+  "seconds": 108.0
+ },
+ {
+  "id": "47334096",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/47334096.mp4",
+  "seconds": 109.0
+ },
+ {
+  "id": "5748ce6f01",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannetpp/5748ce6f01.mp4",
+  "seconds": 109.6
+ },
+ {
+  "id": "45663164",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/45663164.mp4",
+  "seconds": 109.7
+ },
+ {
+  "id": "45b0dac5e3",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannetpp/45b0dac5e3.mp4",
+  "seconds": 109.8
+ },
+ {
+  "id": "scene0629_01",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0629_01.mp4",
+  "seconds": 111.2
+ },
+ {
+  "id": "scene0621_00",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0621_00.mp4",
+  "seconds": 111.5
+ },
+ {
+  "id": "47331654",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/47331654.mp4",
+  "seconds": 111.6
+ },
+ {
+  "id": "44358451",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/44358451.mp4",
+  "seconds": 112.3
+ },
+ {
+  "id": "40aec5fffa",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannetpp/40aec5fffa.mp4",
+  "seconds": 112.9
+ },
+ {
+  "id": "42897647",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/42897647.mp4",
+  "seconds": 113.0
+ },
+ {
+  "id": "41159525",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/41159525.mp4",
+  "seconds": 113.1
+ },
+ {
+  "id": "47331990",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/47331990.mp4",
+  "seconds": 113.6
+ },
+ {
+  "id": "42899712",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/42899712.mp4",
+  "seconds": 114.3
+ },
+ {
+  "id": "47332005",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/47332005.mp4",
+  "seconds": 115.1
+ },
+ {
+  "id": "f3685d06a9",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannetpp/f3685d06a9.mp4",
+  "seconds": 117.5
+ },
+ {
+  "id": "47331063",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/47331063.mp4",
+  "seconds": 117.6
+ },
+ {
+  "id": "47334362",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/47334362.mp4",
+  "seconds": 117.9
+ },
+ {
+  "id": "47331970",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/47331970.mp4",
+  "seconds": 119.5
+ },
+ {
+  "id": "7b6477cb95",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannetpp/7b6477cb95.mp4",
+  "seconds": 120.2
+ },
+ {
+  "id": "3e8bba0176",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannetpp/3e8bba0176.mp4",
+  "seconds": 120.2
+ },
+ {
+  "id": "47334380",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/47334380.mp4",
+  "seconds": 121.1
+ },
+ {
+  "id": "scene0663_00",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0663_00.mp4",
+  "seconds": 122.8
+ },
+ {
+  "id": "99fa5c25e1",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannetpp/99fa5c25e1.mp4",
+  "seconds": 122.9
+ },
+ {
+  "id": "scene0246_00",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0246_00.mp4",
+  "seconds": 123.2
+ },
+ {
+  "id": "scene0353_00",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0353_00.mp4",
+  "seconds": 124.2
+ },
+ {
+  "id": "41159504",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/41159504.mp4",
+  "seconds": 124.5
+ },
+ {
+  "id": "42898544",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/42898544.mp4",
+  "seconds": 124.9
+ },
+ {
+  "id": "47333932",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/47333932.mp4",
+  "seconds": 126.1
+ },
+ {
+  "id": "f9f95681fd",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannetpp/f9f95681fd.mp4",
+  "seconds": 126.3
+ },
+ {
+  "id": "5ee7c22ba0",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannetpp/5ee7c22ba0.mp4",
+  "seconds": 126.9
+ },
+ {
+  "id": "scene0575_01",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0575_01.mp4",
+  "seconds": 127.2
+ },
+ {
+  "id": "42446103",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/42446103.mp4",
+  "seconds": 127.5
+ },
+ {
+  "id": "31a2c91c43",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannetpp/31a2c91c43.mp4",
+  "seconds": 127.5
+ },
+ {
+  "id": "scene0697_01",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0697_01.mp4",
+  "seconds": 128.8
+ },
+ {
+  "id": "41159572",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/41159572.mp4",
+  "seconds": 132.1
+ },
+ {
+  "id": "42898486",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/42898486.mp4",
+  "seconds": 136.6
+ },
+ {
+  "id": "5f99900f09",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannetpp/5f99900f09.mp4",
+  "seconds": 137.7
+ },
+ {
+  "id": "5eb31827b7",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannetpp/5eb31827b7.mp4",
+  "seconds": 137.8
+ },
+ {
+  "id": "scene0616_01",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0616_01.mp4",
+  "seconds": 138.7
+ },
+ {
+  "id": "cc5237fd77",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannetpp/cc5237fd77.mp4",
+  "seconds": 139.5
+ },
+ {
+  "id": "7831862f02",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannetpp/7831862f02.mp4",
+  "seconds": 140.0
+ },
+ {
+  "id": "fb5a96b1a2",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannetpp/fb5a96b1a2.mp4",
+  "seconds": 141.1
+ },
+ {
+  "id": "scene0608_00",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0608_00.mp4",
+  "seconds": 141.2
+ },
+ {
+  "id": "47204552",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/47204552.mp4",
+  "seconds": 142.7
+ },
+ {
+  "id": "b0a08200c9",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannetpp/b0a08200c9.mp4",
+  "seconds": 143.2
+ },
+ {
+  "id": "42445981",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/42445981.mp4",
+  "seconds": 143.9
+ },
+ {
+  "id": "6115eddb86",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannetpp/6115eddb86.mp4",
+  "seconds": 145.0
+ },
+ {
+  "id": "42898849",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/42898849.mp4",
+  "seconds": 145.1
+ },
+ {
+  "id": "d755b3d9d8",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannetpp/d755b3d9d8.mp4",
+  "seconds": 147.8
+ },
+ {
+  "id": "47331972",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/47331972.mp4",
+  "seconds": 148.8
+ },
+ {
+  "id": "41254432",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/41254432.mp4",
+  "seconds": 151.1
+ },
+ {
+  "id": "21d970d8de",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannetpp/21d970d8de.mp4",
+  "seconds": 152.4
+ },
+ {
+  "id": "47334238",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/47334238.mp4",
+  "seconds": 152.4
+ },
+ {
+  "id": "scene0700_02",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0700_02.mp4",
+  "seconds": 152.7
+ },
+ {
+  "id": "13c3e046d7",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannetpp/13c3e046d7.mp4",
+  "seconds": 153.6
+ },
+ {
+  "id": "scene0050_01",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0050_01.mp4",
+  "seconds": 154.6
+ },
+ {
+  "id": "scene0580_01",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0580_01.mp4",
+  "seconds": 159.2
+ },
+ {
+  "id": "41159555",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/41159555.mp4",
+  "seconds": 160.4
+ },
+ {
+  "id": "scene0653_00",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0653_00.mp4",
+  "seconds": 161.6
+ },
+ {
+  "id": "c5439f4607",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannetpp/c5439f4607.mp4",
+  "seconds": 161.7
+ },
+ {
+  "id": "47204607",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/47204607.mp4",
+  "seconds": 161.8
+ },
+ {
+  "id": "42446541",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/42446541.mp4",
+  "seconds": 162.8
+ },
+ {
+  "id": "scene0550_00",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0550_00.mp4",
+  "seconds": 163.1
+ },
+ {
+  "id": "c50d2d1d42",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannetpp/c50d2d1d42.mp4",
+  "seconds": 164.0
+ },
+ {
+  "id": "41069025",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/41069025.mp4",
+  "seconds": 168.2
+ },
+ {
+  "id": "scene0222_01",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0222_01.mp4",
+  "seconds": 174.2
+ },
+ {
+  "id": "scene0648_00",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0648_00.mp4",
+  "seconds": 174.5
+ },
+ {
+  "id": "5942004064",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannetpp/5942004064.mp4",
+  "seconds": 174.6
+ },
+ {
+  "id": "25f3b7a318",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannetpp/25f3b7a318.mp4",
+  "seconds": 175.7
+ },
+ {
+  "id": "09c1414f1b",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannetpp/09c1414f1b.mp4",
+  "seconds": 181.7
+ },
+ {
+  "id": "scene0231_00",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0231_00.mp4",
+  "seconds": 185.0
+ },
+ {
+  "id": "acd95847c5",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannetpp/acd95847c5.mp4",
+  "seconds": 185.9
+ },
+ {
+  "id": "c4c04e6d6c",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannetpp/c4c04e6d6c.mp4",
+  "seconds": 187.6
+ },
+ {
+  "id": "scene0645_00",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannet/scene0645_00.mp4",
+  "seconds": 187.6
+ },
+ {
+  "id": "f3d64c30f8",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannetpp/f3d64c30f8.mp4",
+  "seconds": 188.9
+ },
+ {
+  "id": "42897688",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/42897688.mp4",
+  "seconds": 190.8
+ },
+ {
+  "id": "45662943",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/45662943.mp4",
+  "seconds": 192.8
+ },
+ {
+  "id": "bde1e479ad",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannetpp/bde1e479ad.mp4",
+  "seconds": 196.7
+ },
+ {
+  "id": "a8bf42d646",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannetpp/a8bf42d646.mp4",
+  "seconds": 197.3
+ },
+ {
+  "id": "44358518",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/44358518.mp4",
+  "seconds": 212.5
+ },
+ {
+  "id": "38d58a7a31",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannetpp/38d58a7a31.mp4",
+  "seconds": 218.9
+ },
+ {
+  "id": "3db0a1c8f3",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannetpp/3db0a1c8f3.mp4",
+  "seconds": 237.5
+ },
+ {
+  "id": "ac48a9b736",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannetpp/ac48a9b736.mp4",
+  "seconds": 239.6
+ },
+ {
+  "id": "42898527",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/42898527.mp4",
+  "seconds": 254.1
+ },
+ {
+  "id": "578511c8a9",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannetpp/578511c8a9.mp4",
+  "seconds": 255.4
+ },
+ {
+  "id": "47331644",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/47331644.mp4",
+  "seconds": 265.4
+ },
+ {
+  "id": "42897692",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/42897692.mp4",
+  "seconds": 296.3
+ },
+ {
+  "id": "42898581",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/42898581.mp4",
+  "seconds": 309.7
+ },
+ {
+  "id": "42446056",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/42446056.mp4",
+  "seconds": 372.2
+ },
+ {
+  "id": "42897629",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/arkitscenes/42897629.mp4",
+  "seconds": 387.1
+ },
+ {
+  "id": "27dd4da69e",
+  "task": "T1-T4",
+  "video": "../bench/data/vsi_bench/videos/scannetpp/27dd4da69e.mp4",
+  "seconds": 433.7
+ }
+]

@@ -1,0 +1,4029 @@
+{
+ "task": "T1",
+ "name": "Entity Querying",
+ "source": "VSI-Bench-Debiased (nyu-visionx/VSI-Bench, test_debiased; ids are VSI-Bench ids)",
+ "output": "an answer string (a number, or one option letter)",
+ "scoring": "VSI-Bench official: MRA over thresholds 0.50:0.05:0.95 for numerical answers, exact letter for multiple choice; subgroup means, then the macro mean over the 8 subtasks (the three rel_direction difficulties first average into one)",
+ "n": 251,
+ "subgroups": {
+  "object_count": 251
+ },
+ "samples": [
+  {
+   "id": "T1_vsi_0000",
+   "vsi_id": 0,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/arkitscenes/41069025.mp4",
+    "dataset": "arkitscenes",
+    "scene_name": "41069025",
+    "question": "How many table(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "4"
+   }
+  },
+  {
+   "id": "T1_vsi_0011",
+   "vsi_id": 11,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/arkitscenes/41159541.mp4",
+    "dataset": "arkitscenes",
+    "scene_name": "41159541",
+    "question": "How many chair(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "9"
+   }
+  },
+  {
+   "id": "T1_vsi_0012",
+   "vsi_id": 12,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/arkitscenes/41159572.mp4",
+    "dataset": "arkitscenes",
+    "scene_name": "41159572",
+    "question": "How many sofa(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "4"
+   }
+  },
+  {
+   "id": "T1_vsi_0017",
+   "vsi_id": 17,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/arkitscenes/42445981.mp4",
+    "dataset": "arkitscenes",
+    "scene_name": "42445981",
+    "question": "How many table(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "4"
+   }
+  },
+  {
+   "id": "T1_vsi_0018",
+   "vsi_id": 18,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/arkitscenes/42445981.mp4",
+    "dataset": "arkitscenes",
+    "scene_name": "42445981",
+    "question": "How many chair(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "5"
+   }
+  },
+  {
+   "id": "T1_vsi_0019",
+   "vsi_id": 19,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/arkitscenes/42445984.mp4",
+    "dataset": "arkitscenes",
+    "scene_name": "42445984",
+    "question": "How many chair(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "12"
+   }
+  },
+  {
+   "id": "T1_vsi_0025",
+   "vsi_id": 25,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/arkitscenes/42446151.mp4",
+    "dataset": "arkitscenes",
+    "scene_name": "42446151",
+    "question": "How many sofa(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "4"
+   }
+  },
+  {
+   "id": "T1_vsi_0036",
+   "vsi_id": 36,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/arkitscenes/42897564.mp4",
+    "dataset": "arkitscenes",
+    "scene_name": "42897564",
+    "question": "How many chair(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "7"
+   }
+  },
+  {
+   "id": "T1_vsi_0037",
+   "vsi_id": 37,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/arkitscenes/42897629.mp4",
+    "dataset": "arkitscenes",
+    "scene_name": "42897629",
+    "question": "How many table(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "4"
+   }
+  },
+  {
+   "id": "T1_vsi_0038",
+   "vsi_id": 38,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/arkitscenes/42897629.mp4",
+    "dataset": "arkitscenes",
+    "scene_name": "42897629",
+    "question": "How many chair(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "5"
+   }
+  },
+  {
+   "id": "T1_vsi_0040",
+   "vsi_id": 40,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/arkitscenes/42897629.mp4",
+    "dataset": "arkitscenes",
+    "scene_name": "42897629",
+    "question": "How many washer(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "2"
+   }
+  },
+  {
+   "id": "T1_vsi_0042",
+   "vsi_id": 42,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/arkitscenes/42897647.mp4",
+    "dataset": "arkitscenes",
+    "scene_name": "42897647",
+    "question": "How many table(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "4"
+   }
+  },
+  {
+   "id": "T1_vsi_0049",
+   "vsi_id": 49,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/arkitscenes/42898849.mp4",
+    "dataset": "arkitscenes",
+    "scene_name": "42898849",
+    "question": "How many chair(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "8"
+   }
+  },
+  {
+   "id": "T1_vsi_0051",
+   "vsi_id": 51,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/arkitscenes/42898849.mp4",
+    "dataset": "arkitscenes",
+    "scene_name": "42898849",
+    "question": "How many table(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "4"
+   }
+  },
+  {
+   "id": "T1_vsi_0060",
+   "vsi_id": 60,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/arkitscenes/42899685.mp4",
+    "dataset": "arkitscenes",
+    "scene_name": "42899685",
+    "question": "How many chair(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "4"
+   }
+  },
+  {
+   "id": "T1_vsi_0068",
+   "vsi_id": 68,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/arkitscenes/44358451.mp4",
+    "dataset": "arkitscenes",
+    "scene_name": "44358451",
+    "question": "How many washer(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "2"
+   }
+  },
+  {
+   "id": "T1_vsi_0071",
+   "vsi_id": 71,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/arkitscenes/44358499.mp4",
+    "dataset": "arkitscenes",
+    "scene_name": "44358499",
+    "question": "How many chair(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "4"
+   }
+  },
+  {
+   "id": "T1_vsi_0076",
+   "vsi_id": 76,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/arkitscenes/44358536.mp4",
+    "dataset": "arkitscenes",
+    "scene_name": "44358536",
+    "question": "How many toilet(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "2"
+   }
+  },
+  {
+   "id": "T1_vsi_0080",
+   "vsi_id": 80,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/arkitscenes/45260928.mp4",
+    "dataset": "arkitscenes",
+    "scene_name": "45260928",
+    "question": "How many chair(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "5"
+   }
+  },
+  {
+   "id": "T1_vsi_0085",
+   "vsi_id": 85,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/arkitscenes/45261142.mp4",
+    "dataset": "arkitscenes",
+    "scene_name": "45261142",
+    "question": "How many chair(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "4"
+   }
+  },
+  {
+   "id": "T1_vsi_0087",
+   "vsi_id": 87,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/arkitscenes/45662924.mp4",
+    "dataset": "arkitscenes",
+    "scene_name": "45662924",
+    "question": "How many chair(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "6"
+   }
+  },
+  {
+   "id": "T1_vsi_0088",
+   "vsi_id": 88,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/arkitscenes/45662924.mp4",
+    "dataset": "arkitscenes",
+    "scene_name": "45662924",
+    "question": "How many stool(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "4"
+   }
+  },
+  {
+   "id": "T1_vsi_0090",
+   "vsi_id": 90,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/arkitscenes/45662970.mp4",
+    "dataset": "arkitscenes",
+    "scene_name": "45662970",
+    "question": "How many washer(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "2"
+   }
+  },
+  {
+   "id": "T1_vsi_0099",
+   "vsi_id": 99,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/arkitscenes/47115543.mp4",
+    "dataset": "arkitscenes",
+    "scene_name": "47115543",
+    "question": "How many chair(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "6"
+   }
+  },
+  {
+   "id": "T1_vsi_0101",
+   "vsi_id": 101,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/arkitscenes/47204552.mp4",
+    "dataset": "arkitscenes",
+    "scene_name": "47204552",
+    "question": "How many chair(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "7"
+   }
+  },
+  {
+   "id": "T1_vsi_0104",
+   "vsi_id": 104,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/arkitscenes/47204607.mp4",
+    "dataset": "arkitscenes",
+    "scene_name": "47204607",
+    "question": "How many table(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "4"
+   }
+  },
+  {
+   "id": "T1_vsi_0110",
+   "vsi_id": 110,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/arkitscenes/47331262.mp4",
+    "dataset": "arkitscenes",
+    "scene_name": "47331262",
+    "question": "How many chair(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "6"
+   }
+  },
+  {
+   "id": "T1_vsi_0112",
+   "vsi_id": 112,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/arkitscenes/47331644.mp4",
+    "dataset": "arkitscenes",
+    "scene_name": "47331644",
+    "question": "How many stool(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "3"
+   }
+  },
+  {
+   "id": "T1_vsi_0113",
+   "vsi_id": 113,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/arkitscenes/47331644.mp4",
+    "dataset": "arkitscenes",
+    "scene_name": "47331644",
+    "question": "How many table(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "5"
+   }
+  },
+  {
+   "id": "T1_vsi_0114",
+   "vsi_id": 114,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/arkitscenes/47331644.mp4",
+    "dataset": "arkitscenes",
+    "scene_name": "47331644",
+    "question": "How many chair(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "5"
+   }
+  },
+  {
+   "id": "T1_vsi_0117",
+   "vsi_id": 117,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/arkitscenes/47331970.mp4",
+    "dataset": "arkitscenes",
+    "scene_name": "47331970",
+    "question": "How many chair(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "5"
+   }
+  },
+  {
+   "id": "T1_vsi_0118",
+   "vsi_id": 118,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/arkitscenes/47331970.mp4",
+    "dataset": "arkitscenes",
+    "scene_name": "47331970",
+    "question": "How many sofa(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "4"
+   }
+  },
+  {
+   "id": "T1_vsi_0121",
+   "vsi_id": 121,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/arkitscenes/47331972.mp4",
+    "dataset": "arkitscenes",
+    "scene_name": "47331972",
+    "question": "How many chair(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "5"
+   }
+  },
+  {
+   "id": "T1_vsi_0128",
+   "vsi_id": 128,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/arkitscenes/47333457.mp4",
+    "dataset": "arkitscenes",
+    "scene_name": "47333457",
+    "question": "How many chair(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "5"
+   }
+  },
+  {
+   "id": "T1_vsi_0134",
+   "vsi_id": 134,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/arkitscenes/47333940.mp4",
+    "dataset": "arkitscenes",
+    "scene_name": "47333940",
+    "question": "How many table(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "4"
+   }
+  },
+  {
+   "id": "T1_vsi_0137",
+   "vsi_id": 137,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/arkitscenes/47334096.mp4",
+    "dataset": "arkitscenes",
+    "scene_name": "47334096",
+    "question": "How many chair(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "5"
+   }
+  },
+  {
+   "id": "T1_vsi_0138",
+   "vsi_id": 138,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/arkitscenes/47334103.mp4",
+    "dataset": "arkitscenes",
+    "scene_name": "47334103",
+    "question": "How many chair(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "5"
+   }
+  },
+  {
+   "id": "T1_vsi_0140",
+   "vsi_id": 140,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/arkitscenes/47334238.mp4",
+    "dataset": "arkitscenes",
+    "scene_name": "47334238",
+    "question": "How many chair(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "6"
+   }
+  },
+  {
+   "id": "T1_vsi_0149",
+   "vsi_id": 149,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/arkitscenes/47429904.mp4",
+    "dataset": "arkitscenes",
+    "scene_name": "47429904",
+    "question": "How many chair(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "7"
+   }
+  },
+  {
+   "id": "T1_vsi_0158",
+   "vsi_id": 158,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/arkitscenes/47430023.mp4",
+    "dataset": "arkitscenes",
+    "scene_name": "47430023",
+    "question": "How many chair(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "6"
+   }
+  },
+  {
+   "id": "T1_vsi_0163",
+   "vsi_id": 163,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/arkitscenes/47430038.mp4",
+    "dataset": "arkitscenes",
+    "scene_name": "47430038",
+    "question": "How many chair(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "4"
+   }
+  },
+  {
+   "id": "T1_vsi_0166",
+   "vsi_id": 166,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/arkitscenes/47430468.mp4",
+    "dataset": "arkitscenes",
+    "scene_name": "47430468",
+    "question": "How many chair(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "4"
+   }
+  },
+  {
+   "id": "T1_vsi_2483",
+   "vsi_id": 2483,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/7b6477cb95.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "7b6477cb95",
+    "question": "How many ceiling light(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "4"
+   }
+  },
+  {
+   "id": "T1_vsi_2485",
+   "vsi_id": 2485,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/7b6477cb95.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "7b6477cb95",
+    "question": "How many monitor(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "5"
+   }
+  },
+  {
+   "id": "T1_vsi_2487",
+   "vsi_id": 2487,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/7b6477cb95.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "7b6477cb95",
+    "question": "How many chair(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "4"
+   }
+  },
+  {
+   "id": "T1_vsi_2492",
+   "vsi_id": 2492,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/c50d2d1d42.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "c50d2d1d42",
+    "question": "How many computer tower(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "3"
+   }
+  },
+  {
+   "id": "T1_vsi_2493",
+   "vsi_id": 2493,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/c50d2d1d42.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "c50d2d1d42",
+    "question": "How many monitor(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "6"
+   }
+  },
+  {
+   "id": "T1_vsi_2494",
+   "vsi_id": 2494,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/c50d2d1d42.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "c50d2d1d42",
+    "question": "How many ceiling light(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "4"
+   }
+  },
+  {
+   "id": "T1_vsi_2497",
+   "vsi_id": 2497,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/c50d2d1d42.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "c50d2d1d42",
+    "question": "How many computer mouse(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "2"
+   }
+  },
+  {
+   "id": "T1_vsi_2498",
+   "vsi_id": 2498,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/cc5237fd77.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "cc5237fd77",
+    "question": "How many monitor(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "3"
+   }
+  },
+  {
+   "id": "T1_vsi_2501",
+   "vsi_id": 2501,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/cc5237fd77.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "cc5237fd77",
+    "question": "How many bookshelf(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "2"
+   }
+  },
+  {
+   "id": "T1_vsi_2502",
+   "vsi_id": 2502,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/cc5237fd77.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "cc5237fd77",
+    "question": "How many computer tower(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "2"
+   }
+  },
+  {
+   "id": "T1_vsi_2503",
+   "vsi_id": 2503,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/acd95847c5.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "acd95847c5",
+    "question": "How many computer tower(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "2"
+   }
+  },
+  {
+   "id": "T1_vsi_2504",
+   "vsi_id": 2504,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/acd95847c5.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "acd95847c5",
+    "question": "How many chair(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "4"
+   }
+  },
+  {
+   "id": "T1_vsi_2505",
+   "vsi_id": 2505,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/acd95847c5.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "acd95847c5",
+    "question": "How many ceiling light(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "4"
+   }
+  },
+  {
+   "id": "T1_vsi_2507",
+   "vsi_id": 2507,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/acd95847c5.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "acd95847c5",
+    "question": "How many power strip(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "2"
+   }
+  },
+  {
+   "id": "T1_vsi_2510",
+   "vsi_id": 2510,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/acd95847c5.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "acd95847c5",
+    "question": "How many computer mouse(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "2"
+   }
+  },
+  {
+   "id": "T1_vsi_2511",
+   "vsi_id": 2511,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/acd95847c5.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "acd95847c5",
+    "question": "How many monitor(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "3"
+   }
+  },
+  {
+   "id": "T1_vsi_2512",
+   "vsi_id": 2512,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/acd95847c5.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "acd95847c5",
+    "question": "How many telephone(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "2"
+   }
+  },
+  {
+   "id": "T1_vsi_2514",
+   "vsi_id": 2514,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/fb5a96b1a2.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "fb5a96b1a2",
+    "question": "How many ceiling light(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "12"
+   }
+  },
+  {
+   "id": "T1_vsi_2515",
+   "vsi_id": 2515,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/fb5a96b1a2.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "fb5a96b1a2",
+    "question": "How many chair(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "18"
+   }
+  },
+  {
+   "id": "T1_vsi_2517",
+   "vsi_id": 2517,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/fb5a96b1a2.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "fb5a96b1a2",
+    "question": "How many whiteboard(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "3"
+   }
+  },
+  {
+   "id": "T1_vsi_2519",
+   "vsi_id": 2519,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/1ada7a0617.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "1ada7a0617",
+    "question": "How many bucket(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "2"
+   }
+  },
+  {
+   "id": "T1_vsi_2521",
+   "vsi_id": 2521,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/1ada7a0617.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "1ada7a0617",
+    "question": "How many chair(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "4"
+   }
+  },
+  {
+   "id": "T1_vsi_2522",
+   "vsi_id": 2522,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/1ada7a0617.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "1ada7a0617",
+    "question": "How many keyboard(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "3"
+   }
+  },
+  {
+   "id": "T1_vsi_2523",
+   "vsi_id": 2523,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/1ada7a0617.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "1ada7a0617",
+    "question": "How many monitor(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "4"
+   }
+  },
+  {
+   "id": "T1_vsi_2524",
+   "vsi_id": 2524,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/1ada7a0617.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "1ada7a0617",
+    "question": "How many telephone(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "2"
+   }
+  },
+  {
+   "id": "T1_vsi_2525",
+   "vsi_id": 2525,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/1ada7a0617.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "1ada7a0617",
+    "question": "How many computer mouse(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "4"
+   }
+  },
+  {
+   "id": "T1_vsi_2526",
+   "vsi_id": 2526,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/5eb31827b7.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "5eb31827b7",
+    "question": "How many whiteboard(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "3"
+   }
+  },
+  {
+   "id": "T1_vsi_2528",
+   "vsi_id": 2528,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/5eb31827b7.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "5eb31827b7",
+    "question": "How many monitor(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "6"
+   }
+  },
+  {
+   "id": "T1_vsi_2529",
+   "vsi_id": 2529,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/5eb31827b7.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "5eb31827b7",
+    "question": "How many computer mouse(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "2"
+   }
+  },
+  {
+   "id": "T1_vsi_2530",
+   "vsi_id": 2530,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/5eb31827b7.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "5eb31827b7",
+    "question": "How many trash can(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "3"
+   }
+  },
+  {
+   "id": "T1_vsi_2531",
+   "vsi_id": 2531,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/5eb31827b7.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "5eb31827b7",
+    "question": "How many laptop(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "2"
+   }
+  },
+  {
+   "id": "T1_vsi_2532",
+   "vsi_id": 2532,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/3e8bba0176.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "3e8bba0176",
+    "question": "How many chair(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "5"
+   }
+  },
+  {
+   "id": "T1_vsi_2535",
+   "vsi_id": 2535,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/3e8bba0176.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "3e8bba0176",
+    "question": "How many monitor(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "4"
+   }
+  },
+  {
+   "id": "T1_vsi_2538",
+   "vsi_id": 2538,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/3e8bba0176.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "3e8bba0176",
+    "question": "How many ceiling light(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "4"
+   }
+  },
+  {
+   "id": "T1_vsi_2542",
+   "vsi_id": 2542,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/3f15a9266d.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "3f15a9266d",
+    "question": "How many cup(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "3"
+   }
+  },
+  {
+   "id": "T1_vsi_2544",
+   "vsi_id": 2544,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/21d970d8de.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "21d970d8de",
+    "question": "How many whiteboard(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "3"
+   }
+  },
+  {
+   "id": "T1_vsi_2545",
+   "vsi_id": 2545,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/21d970d8de.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "21d970d8de",
+    "question": "How many chair(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "40"
+   }
+  },
+  {
+   "id": "T1_vsi_2546",
+   "vsi_id": 2546,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/21d970d8de.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "21d970d8de",
+    "question": "How many ceiling light(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "12"
+   }
+  },
+  {
+   "id": "T1_vsi_2549",
+   "vsi_id": 2549,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/5748ce6f01.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "5748ce6f01",
+    "question": "How many chair(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "5"
+   }
+  },
+  {
+   "id": "T1_vsi_2552",
+   "vsi_id": 2552,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/c4c04e6d6c.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "c4c04e6d6c",
+    "question": "How many chair(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "36"
+   }
+  },
+  {
+   "id": "T1_vsi_2553",
+   "vsi_id": 2553,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/7831862f02.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "7831862f02",
+    "question": "How many door(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "4"
+   }
+  },
+  {
+   "id": "T1_vsi_2555",
+   "vsi_id": 2555,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/7831862f02.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "7831862f02",
+    "question": "How many ceiling light(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "3"
+   }
+  },
+  {
+   "id": "T1_vsi_2556",
+   "vsi_id": 2556,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/bde1e479ad.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "bde1e479ad",
+    "question": "How many ceiling light(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "8"
+   }
+  },
+  {
+   "id": "T1_vsi_2557",
+   "vsi_id": 2557,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/bde1e479ad.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "bde1e479ad",
+    "question": "How many heater(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "3"
+   }
+  },
+  {
+   "id": "T1_vsi_2558",
+   "vsi_id": 2558,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/bde1e479ad.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "bde1e479ad",
+    "question": "How many chair(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "47"
+   }
+  },
+  {
+   "id": "T1_vsi_2560",
+   "vsi_id": 2560,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/bde1e479ad.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "bde1e479ad",
+    "question": "How many whiteboard(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "3"
+   }
+  },
+  {
+   "id": "T1_vsi_2562",
+   "vsi_id": 2562,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/bde1e479ad.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "bde1e479ad",
+    "question": "How many power strip(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "2"
+   }
+  },
+  {
+   "id": "T1_vsi_2563",
+   "vsi_id": 2563,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/38d58a7a31.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "38d58a7a31",
+    "question": "How many chair(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "36"
+   }
+  },
+  {
+   "id": "T1_vsi_2565",
+   "vsi_id": 2565,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/38d58a7a31.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "38d58a7a31",
+    "question": "How many ceiling light(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "12"
+   }
+  },
+  {
+   "id": "T1_vsi_2567",
+   "vsi_id": 2567,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/38d58a7a31.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "38d58a7a31",
+    "question": "How many heater(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "3"
+   }
+  },
+  {
+   "id": "T1_vsi_2568",
+   "vsi_id": 2568,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/38d58a7a31.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "38d58a7a31",
+    "question": "How many coat rack(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "2"
+   }
+  },
+  {
+   "id": "T1_vsi_2569",
+   "vsi_id": 2569,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/f9f95681fd.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "f9f95681fd",
+    "question": "How many exhaust fan(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "2"
+   }
+  },
+  {
+   "id": "T1_vsi_2570",
+   "vsi_id": 2570,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/f9f95681fd.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "f9f95681fd",
+    "question": "How many cup(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "2"
+   }
+  },
+  {
+   "id": "T1_vsi_2571",
+   "vsi_id": 2571,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/3864514494.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "3864514494",
+    "question": "How many trash can(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "3"
+   }
+  },
+  {
+   "id": "T1_vsi_2572",
+   "vsi_id": 2572,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/3864514494.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "3864514494",
+    "question": "How many cup(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "3"
+   }
+  },
+  {
+   "id": "T1_vsi_2573",
+   "vsi_id": 2573,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/a8bf42d646.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "a8bf42d646",
+    "question": "How many trash can(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "3"
+   }
+  },
+  {
+   "id": "T1_vsi_2575",
+   "vsi_id": 2575,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/a8bf42d646.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "a8bf42d646",
+    "question": "How many table(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "4"
+   }
+  },
+  {
+   "id": "T1_vsi_2577",
+   "vsi_id": 2577,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/f3685d06a9.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "f3685d06a9",
+    "question": "How many toilet(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "2"
+   }
+  },
+  {
+   "id": "T1_vsi_2579",
+   "vsi_id": 2579,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/b0a08200c9.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "b0a08200c9",
+    "question": "How many computer tower(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "25"
+   }
+  },
+  {
+   "id": "T1_vsi_2580",
+   "vsi_id": 2580,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/b0a08200c9.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "b0a08200c9",
+    "question": "How many computer mouse(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "3"
+   }
+  },
+  {
+   "id": "T1_vsi_2584",
+   "vsi_id": 2584,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/825d228aec.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "825d228aec",
+    "question": "How many power strip(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "2"
+   }
+  },
+  {
+   "id": "T1_vsi_2585",
+   "vsi_id": 2585,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/825d228aec.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "825d228aec",
+    "question": "How many exhaust fan(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "2"
+   }
+  },
+  {
+   "id": "T1_vsi_2586",
+   "vsi_id": 2586,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/5942004064.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "5942004064",
+    "question": "How many door(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "4"
+   }
+  },
+  {
+   "id": "T1_vsi_2587",
+   "vsi_id": 2587,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/5942004064.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "5942004064",
+    "question": "How many pillow(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "4"
+   }
+  },
+  {
+   "id": "T1_vsi_2589",
+   "vsi_id": 2589,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/5942004064.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "5942004064",
+    "question": "How many plant(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "6"
+   }
+  },
+  {
+   "id": "T1_vsi_2592",
+   "vsi_id": 2592,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/25f3b7a318.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "25f3b7a318",
+    "question": "How many shoes(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "10"
+   }
+  },
+  {
+   "id": "T1_vsi_2594",
+   "vsi_id": 2594,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/bcd2436daf.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "bcd2436daf",
+    "question": "How many shoes(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "2"
+   }
+  },
+  {
+   "id": "T1_vsi_2595",
+   "vsi_id": 2595,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/f3d64c30f8.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "f3d64c30f8",
+    "question": "How many crate(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "9"
+   }
+  },
+  {
+   "id": "T1_vsi_2596",
+   "vsi_id": 2596,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/f3d64c30f8.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "f3d64c30f8",
+    "question": "How many chair(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "17"
+   }
+  },
+  {
+   "id": "T1_vsi_2597",
+   "vsi_id": 2597,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/f3d64c30f8.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "f3d64c30f8",
+    "question": "How many table(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "7"
+   }
+  },
+  {
+   "id": "T1_vsi_2600",
+   "vsi_id": 2600,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/f3d64c30f8.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "f3d64c30f8",
+    "question": "How many trash can(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "3"
+   }
+  },
+  {
+   "id": "T1_vsi_2601",
+   "vsi_id": 2601,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/f3d64c30f8.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "f3d64c30f8",
+    "question": "How many bowl(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "2"
+   }
+  },
+  {
+   "id": "T1_vsi_2603",
+   "vsi_id": 2603,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/0d2ee665be.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "0d2ee665be",
+    "question": "How many pan(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "2"
+   }
+  },
+  {
+   "id": "T1_vsi_2604",
+   "vsi_id": 2604,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/3db0a1c8f3.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "3db0a1c8f3",
+    "question": "How many chair(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "4"
+   }
+  },
+  {
+   "id": "T1_vsi_2605",
+   "vsi_id": 2605,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/3db0a1c8f3.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "3db0a1c8f3",
+    "question": "How many table(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "5"
+   }
+  },
+  {
+   "id": "T1_vsi_2608",
+   "vsi_id": 2608,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/3db0a1c8f3.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "3db0a1c8f3",
+    "question": "How many basket(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "4"
+   }
+  },
+  {
+   "id": "T1_vsi_2609",
+   "vsi_id": 2609,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/ac48a9b736.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "ac48a9b736",
+    "question": "How many chair(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "9"
+   }
+  },
+  {
+   "id": "T1_vsi_2610",
+   "vsi_id": 2610,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/ac48a9b736.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "ac48a9b736",
+    "question": "How many table(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "8"
+   }
+  },
+  {
+   "id": "T1_vsi_2611",
+   "vsi_id": 2611,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/ac48a9b736.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "ac48a9b736",
+    "question": "How many door(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "3"
+   }
+  },
+  {
+   "id": "T1_vsi_2612",
+   "vsi_id": 2612,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/ac48a9b736.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "ac48a9b736",
+    "question": "How many keyboard(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "6"
+   }
+  },
+  {
+   "id": "T1_vsi_2613",
+   "vsi_id": 2613,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/ac48a9b736.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "ac48a9b736",
+    "question": "How many monitor(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "9"
+   }
+  },
+  {
+   "id": "T1_vsi_2614",
+   "vsi_id": 2614,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/ac48a9b736.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "ac48a9b736",
+    "question": "How many computer mouse(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "2"
+   }
+  },
+  {
+   "id": "T1_vsi_2615",
+   "vsi_id": 2615,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/ac48a9b736.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "ac48a9b736",
+    "question": "How many heater(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "4"
+   }
+  },
+  {
+   "id": "T1_vsi_2617",
+   "vsi_id": 2617,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/c5439f4607.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "c5439f4607",
+    "question": "How many exhaust fan(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "3"
+   }
+  },
+  {
+   "id": "T1_vsi_2619",
+   "vsi_id": 2619,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/578511c8a9.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "578511c8a9",
+    "question": "How many table(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "19"
+   }
+  },
+  {
+   "id": "T1_vsi_2620",
+   "vsi_id": 2620,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/578511c8a9.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "578511c8a9",
+    "question": "How many monitor(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "16"
+   }
+  },
+  {
+   "id": "T1_vsi_2621",
+   "vsi_id": 2621,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/578511c8a9.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "578511c8a9",
+    "question": "How many keyboard(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "10"
+   }
+  },
+  {
+   "id": "T1_vsi_2622",
+   "vsi_id": 2622,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/578511c8a9.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "578511c8a9",
+    "question": "How many computer tower(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "8"
+   }
+  },
+  {
+   "id": "T1_vsi_2623",
+   "vsi_id": 2623,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/578511c8a9.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "578511c8a9",
+    "question": "How many whiteboard(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "4"
+   }
+  },
+  {
+   "id": "T1_vsi_2624",
+   "vsi_id": 2624,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/578511c8a9.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "578511c8a9",
+    "question": "How many chair(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "11"
+   }
+  },
+  {
+   "id": "T1_vsi_2625",
+   "vsi_id": 2625,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/578511c8a9.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "578511c8a9",
+    "question": "How many computer mouse(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "8"
+   }
+  },
+  {
+   "id": "T1_vsi_2626",
+   "vsi_id": 2626,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/578511c8a9.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "578511c8a9",
+    "question": "How many ceiling light(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "25"
+   }
+  },
+  {
+   "id": "T1_vsi_2630",
+   "vsi_id": 2630,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/d755b3d9d8.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "d755b3d9d8",
+    "question": "How many monitor(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "3"
+   }
+  },
+  {
+   "id": "T1_vsi_2631",
+   "vsi_id": 2631,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/d755b3d9d8.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "d755b3d9d8",
+    "question": "How many computer mouse(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "3"
+   }
+  },
+  {
+   "id": "T1_vsi_2632",
+   "vsi_id": 2632,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/d755b3d9d8.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "d755b3d9d8",
+    "question": "How many printer(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "2"
+   }
+  },
+  {
+   "id": "T1_vsi_2633",
+   "vsi_id": 2633,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/d755b3d9d8.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "d755b3d9d8",
+    "question": "How many plant(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "3"
+   }
+  },
+  {
+   "id": "T1_vsi_2635",
+   "vsi_id": 2635,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/99fa5c25e1.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "99fa5c25e1",
+    "question": "How many bucket(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "4"
+   }
+  },
+  {
+   "id": "T1_vsi_2636",
+   "vsi_id": 2636,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/09c1414f1b.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "09c1414f1b",
+    "question": "How many bookshelf(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "2"
+   }
+  },
+  {
+   "id": "T1_vsi_2637",
+   "vsi_id": 2637,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/09c1414f1b.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "09c1414f1b",
+    "question": "How many refrigerator(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "1"
+   }
+  },
+  {
+   "id": "T1_vsi_2639",
+   "vsi_id": 2639,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/09c1414f1b.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "09c1414f1b",
+    "question": "How many blanket(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "3"
+   }
+  },
+  {
+   "id": "T1_vsi_2640",
+   "vsi_id": 2640,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/09c1414f1b.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "09c1414f1b",
+    "question": "How many plant(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "5"
+   }
+  },
+  {
+   "id": "T1_vsi_2642",
+   "vsi_id": 2642,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/5f99900f09.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "5f99900f09",
+    "question": "How many table(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "11"
+   }
+  },
+  {
+   "id": "T1_vsi_2643",
+   "vsi_id": 2643,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/5f99900f09.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "5f99900f09",
+    "question": "How many printer(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "2"
+   }
+  },
+  {
+   "id": "T1_vsi_2645",
+   "vsi_id": 2645,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/5f99900f09.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "5f99900f09",
+    "question": "How many chair(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "14"
+   }
+  },
+  {
+   "id": "T1_vsi_2646",
+   "vsi_id": 2646,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/5f99900f09.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "5f99900f09",
+    "question": "How many whiteboard(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "3"
+   }
+  },
+  {
+   "id": "T1_vsi_2647",
+   "vsi_id": 2647,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/5f99900f09.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "5f99900f09",
+    "question": "How many ceiling light(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "5"
+   }
+  },
+  {
+   "id": "T1_vsi_2648",
+   "vsi_id": 2648,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/9071e139d9.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "9071e139d9",
+    "question": "How many chair(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "5"
+   }
+  },
+  {
+   "id": "T1_vsi_2649",
+   "vsi_id": 2649,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/9071e139d9.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "9071e139d9",
+    "question": "How many table(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "5"
+   }
+  },
+  {
+   "id": "T1_vsi_2650",
+   "vsi_id": 2650,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/9071e139d9.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "9071e139d9",
+    "question": "How many sofa(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "5"
+   }
+  },
+  {
+   "id": "T1_vsi_2651",
+   "vsi_id": 2651,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/9071e139d9.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "9071e139d9",
+    "question": "How many cushion(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "6"
+   }
+  },
+  {
+   "id": "T1_vsi_2653",
+   "vsi_id": 2653,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/6115eddb86.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "6115eddb86",
+    "question": "How many telephone(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "2"
+   }
+  },
+  {
+   "id": "T1_vsi_2654",
+   "vsi_id": 2654,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/6115eddb86.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "6115eddb86",
+    "question": "How many pillow(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "5"
+   }
+  },
+  {
+   "id": "T1_vsi_2655",
+   "vsi_id": 2655,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/27dd4da69e.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "27dd4da69e",
+    "question": "How many door(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "5"
+   }
+  },
+  {
+   "id": "T1_vsi_2657",
+   "vsi_id": 2657,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/27dd4da69e.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "27dd4da69e",
+    "question": "How many suitcase(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "3"
+   }
+  },
+  {
+   "id": "T1_vsi_2660",
+   "vsi_id": 2660,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/c49a8c6cff.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "c49a8c6cff",
+    "question": "How many plant(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "2"
+   }
+  },
+  {
+   "id": "T1_vsi_2661",
+   "vsi_id": 2661,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannetpp/c49a8c6cff.mp4",
+    "dataset": "scannetpp",
+    "scene_name": "c49a8c6cff",
+    "question": "How many shoes(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "2"
+   }
+  },
+  {
+   "id": "T1_vsi_4387",
+   "vsi_id": 4387,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0251_00.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0251_00",
+    "question": "How many window(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "3"
+   }
+  },
+  {
+   "id": "T1_vsi_4388",
+   "vsi_id": 4388,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0251_00.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0251_00",
+    "question": "How many door(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "3"
+   }
+  },
+  {
+   "id": "T1_vsi_4389",
+   "vsi_id": 4389,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0251_00.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0251_00",
+    "question": "How many trash bin(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "5"
+   }
+  },
+  {
+   "id": "T1_vsi_4392",
+   "vsi_id": 4392,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0307_02.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0307_02",
+    "question": "How many window(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "3"
+   }
+  },
+  {
+   "id": "T1_vsi_4393",
+   "vsi_id": 4393,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0307_02.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0307_02",
+    "question": "How many door(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "5"
+   }
+  },
+  {
+   "id": "T1_vsi_4397",
+   "vsi_id": 4397,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0353_00.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0353_00",
+    "question": "How many pillow(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "4"
+   }
+  },
+  {
+   "id": "T1_vsi_4400",
+   "vsi_id": 4400,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0354_00.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0354_00",
+    "question": "How many chair(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "8"
+   }
+  },
+  {
+   "id": "T1_vsi_4405",
+   "vsi_id": 4405,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0378_01.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0378_01",
+    "question": "How many bookshelf(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "2"
+   }
+  },
+  {
+   "id": "T1_vsi_4408",
+   "vsi_id": 4408,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0412_00.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0412_00",
+    "question": "How many trash bin(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "6"
+   }
+  },
+  {
+   "id": "T1_vsi_4409",
+   "vsi_id": 4409,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0412_00.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0412_00",
+    "question": "How many table(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "5"
+   }
+  },
+  {
+   "id": "T1_vsi_4411",
+   "vsi_id": 4411,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0426_00.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0426_00",
+    "question": "How many pillow(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "3"
+   }
+  },
+  {
+   "id": "T1_vsi_4412",
+   "vsi_id": 4412,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0426_00.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0426_00",
+    "question": "How many monitor(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "4"
+   }
+  },
+  {
+   "id": "T1_vsi_4413",
+   "vsi_id": 4413,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0616_01.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0616_01",
+    "question": "How many chair(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "7"
+   }
+  },
+  {
+   "id": "T1_vsi_4417",
+   "vsi_id": 4417,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0621_00.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0621_00",
+    "question": "How many chair(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "27"
+   }
+  },
+  {
+   "id": "T1_vsi_4418",
+   "vsi_id": 4418,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0621_00.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0621_00",
+    "question": "How many table(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "5"
+   }
+  },
+  {
+   "id": "T1_vsi_4421",
+   "vsi_id": 4421,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0643_00.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0643_00",
+    "question": "How many chair(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "5"
+   }
+  },
+  {
+   "id": "T1_vsi_4424",
+   "vsi_id": 4424,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0643_00.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0643_00",
+    "question": "How many table(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "5"
+   }
+  },
+  {
+   "id": "T1_vsi_4428",
+   "vsi_id": 4428,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0645_00.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0645_00",
+    "question": "How many pillow(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "14"
+   }
+  },
+  {
+   "id": "T1_vsi_4429",
+   "vsi_id": 4429,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0645_00.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0645_00",
+    "question": "How many lamp(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "3"
+   }
+  },
+  {
+   "id": "T1_vsi_4430",
+   "vsi_id": 4430,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0645_00.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0645_00",
+    "question": "How many backpack(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "3"
+   }
+  },
+  {
+   "id": "T1_vsi_4431",
+   "vsi_id": 4431,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0645_00.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0645_00",
+    "question": "How many mirror(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "2"
+   }
+  },
+  {
+   "id": "T1_vsi_4433",
+   "vsi_id": 4433,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0645_00.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0645_00",
+    "question": "How many trash bin(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "3"
+   }
+  },
+  {
+   "id": "T1_vsi_4440",
+   "vsi_id": 4440,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0648_00.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0648_00",
+    "question": "How many pillow(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "5"
+   }
+  },
+  {
+   "id": "T1_vsi_4441",
+   "vsi_id": 4441,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0648_00.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0648_00",
+    "question": "How many plant(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "2"
+   }
+  },
+  {
+   "id": "T1_vsi_4444",
+   "vsi_id": 4444,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0651_02.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0651_02",
+    "question": "How many chair(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "4"
+   }
+  },
+  {
+   "id": "T1_vsi_4446",
+   "vsi_id": 4446,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0653_00.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0653_00",
+    "question": "How many chair(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "8"
+   }
+  },
+  {
+   "id": "T1_vsi_4448",
+   "vsi_id": 4448,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0653_00.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0653_00",
+    "question": "How many monitor(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "7"
+   }
+  },
+  {
+   "id": "T1_vsi_4452",
+   "vsi_id": 4452,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0653_00.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0653_00",
+    "question": "How many table(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "6"
+   }
+  },
+  {
+   "id": "T1_vsi_4454",
+   "vsi_id": 4454,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0663_00.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0663_00",
+    "question": "How many monitor(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "3"
+   }
+  },
+  {
+   "id": "T1_vsi_4456",
+   "vsi_id": 4456,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0663_00.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0663_00",
+    "question": "How many backpack(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "3"
+   }
+  },
+  {
+   "id": "T1_vsi_4457",
+   "vsi_id": 4457,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0663_00.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0663_00",
+    "question": "How many telephone(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "2"
+   }
+  },
+  {
+   "id": "T1_vsi_4460",
+   "vsi_id": 4460,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0664_02.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0664_02",
+    "question": "How many towel(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "2"
+   }
+  },
+  {
+   "id": "T1_vsi_4461",
+   "vsi_id": 4461,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0665_00.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0665_00",
+    "question": "How many chair(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "18"
+   }
+  },
+  {
+   "id": "T1_vsi_4462",
+   "vsi_id": 4462,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0665_00.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0665_00",
+    "question": "How many table(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "9"
+   }
+  },
+  {
+   "id": "T1_vsi_4469",
+   "vsi_id": 4469,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0693_00.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0693_00",
+    "question": "How many mirror(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "3"
+   }
+  },
+  {
+   "id": "T1_vsi_4471",
+   "vsi_id": 4471,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0696_01.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0696_01",
+    "question": "How many chair(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "10"
+   }
+  },
+  {
+   "id": "T1_vsi_4476",
+   "vsi_id": 4476,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0697_01.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0697_01",
+    "question": "How many pillow(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "3"
+   }
+  },
+  {
+   "id": "T1_vsi_4477",
+   "vsi_id": 4477,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0697_01.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0697_01",
+    "question": "How many nightstand(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "2"
+   }
+  },
+  {
+   "id": "T1_vsi_4482",
+   "vsi_id": 4482,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0700_02.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0700_02",
+    "question": "How many chair(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "4"
+   }
+  },
+  {
+   "id": "T1_vsi_4487",
+   "vsi_id": 4487,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0704_01.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0704_01",
+    "question": "How many trash bin(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "4"
+   }
+  },
+  {
+   "id": "T1_vsi_4490",
+   "vsi_id": 4490,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0435_02.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0435_02",
+    "question": "How many pillow(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "8"
+   }
+  },
+  {
+   "id": "T1_vsi_4491",
+   "vsi_id": 4491,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0435_02.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0435_02",
+    "question": "How many lamp(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "2"
+   }
+  },
+  {
+   "id": "T1_vsi_4492",
+   "vsi_id": 4492,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0441_00.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0441_00",
+    "question": "How many trash bin(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "3"
+   }
+  },
+  {
+   "id": "T1_vsi_4500",
+   "vsi_id": 4500,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0474_04.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0474_04",
+    "question": "How many pillow(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "3"
+   }
+  },
+  {
+   "id": "T1_vsi_4502",
+   "vsi_id": 4502,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0488_01.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0488_01",
+    "question": "How many counter(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "2"
+   }
+  },
+  {
+   "id": "T1_vsi_4503",
+   "vsi_id": 4503,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0488_01.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0488_01",
+    "question": "How many refrigerator(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "2"
+   }
+  },
+  {
+   "id": "T1_vsi_4504",
+   "vsi_id": 4504,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0494_00.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0494_00",
+    "question": "How many chair(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "4"
+   }
+  },
+  {
+   "id": "T1_vsi_4505",
+   "vsi_id": 4505,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0496_00.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0496_00",
+    "question": "How many chair(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "16"
+   }
+  },
+  {
+   "id": "T1_vsi_4506",
+   "vsi_id": 4506,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0496_00.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0496_00",
+    "question": "How many window(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "4"
+   }
+  },
+  {
+   "id": "T1_vsi_4508",
+   "vsi_id": 4508,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0500_00.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0500_00",
+    "question": "How many chair(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "38"
+   }
+  },
+  {
+   "id": "T1_vsi_4509",
+   "vsi_id": 4509,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0500_00.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0500_00",
+    "question": "How many window(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "7"
+   }
+  },
+  {
+   "id": "T1_vsi_4514",
+   "vsi_id": 4514,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0565_00.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0565_00",
+    "question": "How many chair(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "4"
+   }
+  },
+  {
+   "id": "T1_vsi_4515",
+   "vsi_id": 4515,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0565_00.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0565_00",
+    "question": "How many window(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "3"
+   }
+  },
+  {
+   "id": "T1_vsi_4516",
+   "vsi_id": 4516,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0565_00.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0565_00",
+    "question": "How many monitor(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "4"
+   }
+  },
+  {
+   "id": "T1_vsi_4517",
+   "vsi_id": 4517,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0565_00.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0565_00",
+    "question": "How many printer(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "2"
+   }
+  },
+  {
+   "id": "T1_vsi_4520",
+   "vsi_id": 4520,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0568_02.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0568_02",
+    "question": "How many chair(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "4"
+   }
+  },
+  {
+   "id": "T1_vsi_4522",
+   "vsi_id": 4522,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0574_01.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0574_01",
+    "question": "How many towel(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "4"
+   }
+  },
+  {
+   "id": "T1_vsi_4524",
+   "vsi_id": 4524,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0575_01.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0575_01",
+    "question": "How many chair(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "10"
+   }
+  },
+  {
+   "id": "T1_vsi_4531",
+   "vsi_id": 4531,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0591_01.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0591_01",
+    "question": "How many monitor(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "4"
+   }
+  },
+  {
+   "id": "T1_vsi_4532",
+   "vsi_id": 4532,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0591_01.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0591_01",
+    "question": "How many plant(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "2"
+   }
+  },
+  {
+   "id": "T1_vsi_4541",
+   "vsi_id": 4541,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0608_00.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0608_00",
+    "question": "How many plant(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "3"
+   }
+  },
+  {
+   "id": "T1_vsi_4545",
+   "vsi_id": 4545,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0025_01.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0025_01",
+    "question": "How many window(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "3"
+   }
+  },
+  {
+   "id": "T1_vsi_4546",
+   "vsi_id": 4546,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0025_01.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0025_01",
+    "question": "How many monitor(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "4"
+   }
+  },
+  {
+   "id": "T1_vsi_4548",
+   "vsi_id": 4548,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0030_02.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0030_02",
+    "question": "How many chair(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "17"
+   }
+  },
+  {
+   "id": "T1_vsi_4549",
+   "vsi_id": 4549,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0030_02.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0030_02",
+    "question": "How many window(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "3"
+   }
+  },
+  {
+   "id": "T1_vsi_4550",
+   "vsi_id": 4550,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0030_02.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0030_02",
+    "question": "How many bookshelf(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "6"
+   }
+  },
+  {
+   "id": "T1_vsi_4551",
+   "vsi_id": 4551,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0030_02.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0030_02",
+    "question": "How many table(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "7"
+   }
+  },
+  {
+   "id": "T1_vsi_4556",
+   "vsi_id": 4556,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0050_01.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0050_01",
+    "question": "How many door(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "4"
+   }
+  },
+  {
+   "id": "T1_vsi_4557",
+   "vsi_id": 4557,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0077_01.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0077_01",
+    "question": "How many printer(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "3"
+   }
+  },
+  {
+   "id": "T1_vsi_4560",
+   "vsi_id": 4560,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0081_02.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0081_02",
+    "question": "How many chair(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "27"
+   }
+  },
+  {
+   "id": "T1_vsi_4561",
+   "vsi_id": 4561,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0081_02.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0081_02",
+    "question": "How many table(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "7"
+   }
+  },
+  {
+   "id": "T1_vsi_4562",
+   "vsi_id": 4562,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0086_02.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0086_02",
+    "question": "How many door(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "3"
+   }
+  },
+  {
+   "id": "T1_vsi_4563",
+   "vsi_id": 4563,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0088_01.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0088_01",
+    "question": "How many chair(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "18"
+   }
+  },
+  {
+   "id": "T1_vsi_4566",
+   "vsi_id": 4566,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0095_01.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0095_01",
+    "question": "How many chair(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "17"
+   }
+  },
+  {
+   "id": "T1_vsi_4567",
+   "vsi_id": 4567,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0095_01.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0095_01",
+    "question": "How many monitor(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "10"
+   }
+  },
+  {
+   "id": "T1_vsi_4569",
+   "vsi_id": 4569,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0149_00.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0149_00",
+    "question": "How many counter(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "2"
+   }
+  },
+  {
+   "id": "T1_vsi_4570",
+   "vsi_id": 4570,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0153_00.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0153_00",
+    "question": "How many towel(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "3"
+   }
+  },
+  {
+   "id": "T1_vsi_4571",
+   "vsi_id": 4571,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0169_01.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0169_01",
+    "question": "How many chair(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "22"
+   }
+  },
+  {
+   "id": "T1_vsi_4573",
+   "vsi_id": 4573,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0196_00.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0196_00",
+    "question": "How many chair(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "23"
+   }
+  },
+  {
+   "id": "T1_vsi_4574",
+   "vsi_id": 4574,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0196_00.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0196_00",
+    "question": "How many table(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "5"
+   }
+  },
+  {
+   "id": "T1_vsi_4578",
+   "vsi_id": 4578,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0203_01.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0203_01",
+    "question": "How many pillow(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "4"
+   }
+  },
+  {
+   "id": "T1_vsi_4582",
+   "vsi_id": 4582,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0207_02.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0207_02",
+    "question": "How many towel(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "2"
+   }
+  },
+  {
+   "id": "T1_vsi_4589",
+   "vsi_id": 4589,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0221_01.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0221_01",
+    "question": "How many pillow(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "5"
+   }
+  },
+  {
+   "id": "T1_vsi_4590",
+   "vsi_id": 4590,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0221_01.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0221_01",
+    "question": "How many lamp(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "2"
+   }
+  },
+  {
+   "id": "T1_vsi_4596",
+   "vsi_id": 4596,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0222_01.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0222_01",
+    "question": "How many refrigerator(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "2"
+   }
+  },
+  {
+   "id": "T1_vsi_4597",
+   "vsi_id": 4597,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0222_01.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0222_01",
+    "question": "How many pillow(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "3"
+   }
+  },
+  {
+   "id": "T1_vsi_4599",
+   "vsi_id": 4599,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0222_01.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0222_01",
+    "question": "How many trash bin(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "3"
+   }
+  },
+  {
+   "id": "T1_vsi_4601",
+   "vsi_id": 4601,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0231_00.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0231_00",
+    "question": "How many chair(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "6"
+   }
+  },
+  {
+   "id": "T1_vsi_4602",
+   "vsi_id": 4602,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0231_00.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0231_00",
+    "question": "How many window(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "3"
+   }
+  },
+  {
+   "id": "T1_vsi_4603",
+   "vsi_id": 4603,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0231_00.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0231_00",
+    "question": "How many lamp(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "2"
+   }
+  },
+  {
+   "id": "T1_vsi_4606",
+   "vsi_id": 4606,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0246_00.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0246_00",
+    "question": "How many pillow(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "6"
+   }
+  },
+  {
+   "id": "T1_vsi_4607",
+   "vsi_id": 4607,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0246_00.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0246_00",
+    "question": "How many lamp(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "2"
+   }
+  },
+  {
+   "id": "T1_vsi_4608",
+   "vsi_id": 4608,
+   "subgroup": "object_count",
+   "question_type": "object_counting",
+   "input": {
+    "video": "data/vsi_bench/videos/scannet/scene0246_00.mp4",
+    "dataset": "scannet",
+    "scene_name": "scene0246_00",
+    "question": "How many mirror(s) are in this room?",
+    "options": null
+   },
+   "eval_only": {
+    "ground_truth": "2"
+   }
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+subject_definitions:
+<Picture 1> is the first frame of [Shot 1], a real photograph of the scene.
+<Video 1> is the motion reference, a simulated rendering of the same scene from the same fixed camera that shows which objects move, where they go and when.
+<Subject 1> is the scene in <Picture 1> with all of its objects, whose appearance comes from <Picture 1> and whose motion comes from <Video 1>.
+
+summary:
+[reference generation + keyframe completion] Fixed Camera. The target video starts from <Picture 1> and shows <Subject 1> moving as in <Video 1>, with one human hand carrying out the task in a realistic and physically plausible way. Goal: {goal}
+
+retention_analysis:
+<Picture 1> ([Shot 1] first frame): fully_preserved - the scene, its objects, the lighting and the framing.
+<Subject 1> (appears in [Shot 1]): fully_preserved - the real appearance of every object.
+<Video 1> (motion reference): partially_preserved - the object motions, their order and their timing; its rendered look is not used.
+
+detailed_description:
+The target video is realistic, with the look and lighting of <Picture 1>. Fixed Camera: the camera holds a static shot from the first frame to the last.
+[Shot 1] The shot begins from <Picture 1>. One human hand moves the objects as <Video 1> shows, in the same order and at the same times, and touches each object before it moves. The large motions follow <Video 1>; smaller physical effects that <Video 1> does not show follow natural physics. After the last object is in place, the hand leaves the frame and the scene stays still until the end. The goal is achieved: {goal}
+
+overall_soundscape:
+Quiet room tone with the soft sounds of handling the objects.
+
+non_diegetic_music:
+N/A

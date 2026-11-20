@@ -1,0 +1,21 @@
+{
+ "_note": "Bench T7 (Physics-IQ future-state prediction): the 3 s conditioning clip at 30 fps (downscaled to 1280 px); the verified description goes to the model as task.text. Codification stops at the scene of these 3 s. Physics-IQ clips are locked-off shots: fuse.fixed_camera states the camera does not move.",
+ "include": "../machine.json",
+ "decode": {
+  "start_frame": 0,
+  "stride": 1,
+  "jpeg_quality": 95,
+  "cut_threshold": 0.5,
+  "max_side": 1280
+ },
+ "fuse": {
+  "fixed_camera": true
+ },
+ "agent": {
+  "budget": {
+   "max_model_requests": 25,
+   "max_wall_seconds": 3600,
+   "max_usd": 0.6
+  }
+ }
+}

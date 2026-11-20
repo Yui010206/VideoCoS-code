@@ -1,0 +1,18 @@
+{
+ "_note": "Bench T5 (Kubric-4D novel-view synthesis): the scene's high view v0 (the bench's T5 source since 2026-10-26), 60 frames at 24 fps with its camera from the view JSON's camera block (Kubric world, floor at z = 0). One codification serves the scene's three samples; rendering the target cameras is the next harness's job.",
+ "include": "../machine.json",
+ "decode": {
+  "start_frame": 0,
+  "stride": 1,
+  "jpeg_quality": 95,
+  "cut_threshold": 0.5
+ },
+ "agent": {
+  "budget": {
+   "max_model_requests": 25,
+   "max_wall_seconds": 3600,
+   "max_usd": 0.6
+  }
+ },
+ "fuse": {}
+}
