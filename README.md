@@ -54,17 +54,13 @@ and renders it; the video models (CogNVS, ReCamMaster) have to imagine the unsee
 
 ### Goal-conditioned planning (T6, Ego2Act)
 
-<img src="./assets/t6_lego.gif" width="900"/>
+<img src="./assets/t6_remote_marker_stand.gif" width="900"/>
 
-*Goal: "The blocks are stacked from bottom to top in this order: yellow, green, red, blue."*
+*Goal: "The marker is inside the red stationery case, the white AC remote is inside the standing remote holder, and the green notebook is on the laptop stand."*
 
-<img src="./assets/t6_shoes_boxes.gif" width="900"/>
+<img src="./assets/t6_controller_watch_ring.gif" width="900"/>
 
-*Goal: "Sandals stored inside the closed orange box, with the shoes stored inside the closed brown-and-white box."*
-
-<img src="./assets/t6_four_in_a_row.gif" width="900"/>
-
-*Goal: "Put the final move of the game to win as either side."*
+*Goal: "Closed aqua green container with all items placed on top and arranged from largest to smallest, from left to right."*
 
 From one start photo and a goal, the reasoning agent animates a 15 s plan in the codified scene (Blender plan); MiniMax-H3
 then renders the plan photoreal from the real photo and adds the hand (Blender + H3).
